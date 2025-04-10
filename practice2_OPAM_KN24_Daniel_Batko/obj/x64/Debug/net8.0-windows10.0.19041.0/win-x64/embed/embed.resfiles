@@ -1,0 +1,12 @@
+App.xbf
+MainWindow.xbf
+Pages\AddNote.xbf
+Pages\AllNotes.xbf
+Pages\Categories.xbf
+Pages\Favorites.xbf
+Pages\Reminders.xbf
+Pages\Settings.xbf
+Styles\ButtonStyles.xbf
+Styles\TextBlockStyles.xbf
+Themes\DarkDefault.xbf
+Themes\LightDefault.xbf

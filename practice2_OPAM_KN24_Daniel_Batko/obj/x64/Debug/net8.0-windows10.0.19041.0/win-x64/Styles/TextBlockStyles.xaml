@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style
+        x:Key="DisplayTextBlockStyle"
+        BasedOn="{StaticResource DisplayTextBlockStyle}"
+        TargetType="TextBlock">
+
+        <Setter Property="FontSize" Value="36" />
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="Foreground" Value="DarkBlue" />
+    </Style>
+
+    <Style x:Key="ErrorTextBlock" TargetType="TextBlock">
+        <Setter Property="Foreground" Value="{ThemeResource SystemFillColorCriticalBrush}" />
+        <Setter Property="TextWrapping" Value="Wrap" />
+        <Setter Property="Visibility" Value="Collapsed" />
+        <Setter Property="FontSize" Value="12" />
+    </Style>
+</ResourceDictionary>
+

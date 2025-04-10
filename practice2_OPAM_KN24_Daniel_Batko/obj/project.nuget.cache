@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "rFSZg+mqcpw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\soryn\\source\\repos\\practice2_OPAM_KN24_Daniel_Batko\\practice2_OPAM_KN24_Daniel_Batko\\practice2_OPAM_KN24_Daniel_Batko.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\soryn\\.nuget\\packages\\microsoft.web.webview2\\1.0.2903.40\\microsoft.web.webview2.1.0.2903.40.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.26100.1742\\microsoft.windows.sdk.buildtools.10.0.26100.1742.nupkg.sha512",
+    "C:\\Users\\soryn\\.nuget\\packages\\microsoft.windowsappsdk\\1.7.250310001\\microsoft.windowsappsdk.1.7.250310001.nupkg.sha512",
+    "C:\\Users\\soryn\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\8.0.15\\microsoft.netcore.app.runtime.win-x86.8.0.15.nupkg.sha512",
+    "C:\\Users\\soryn\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.57\\microsoft.windows.sdk.net.ref.10.0.19041.57.nupkg.sha512",
+    "C:\\Users\\soryn\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\8.0.15\\microsoft.aspnetcore.app.runtime.win-x86.8.0.15.nupkg.sha512",
+    "C:\\Users\\soryn\\.nuget\\packages\\microsoft.netcore.app.runtime.win-arm64\\8.0.15\\microsoft.netcore.app.runtime.win-arm64.8.0.15.nupkg.sha512",
+    "C:\\Users\\soryn\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.15\\microsoft.aspnetcore.app.runtime.win-x64.8.0.15.nupkg.sha512",
+    "C:\\Users\\soryn\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-arm64\\8.0.15\\microsoft.windowsdesktop.app.runtime.win-arm64.8.0.15.nupkg.sha512",
+    "C:\\Users\\soryn\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.15\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.15.nupkg.sha512",
+    "C:\\Users\\soryn\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-arm64\\8.0.15\\microsoft.aspnetcore.app.runtime.win-arm64.8.0.15.nupkg.sha512",
+    "C:\\Users\\soryn\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.15\\microsoft.netcore.app.runtime.win-x64.8.0.15.nupkg.sha512",
+    "C:\\Users\\soryn\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\8.0.15\\microsoft.windowsdesktop.app.runtime.win-x86.8.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}
