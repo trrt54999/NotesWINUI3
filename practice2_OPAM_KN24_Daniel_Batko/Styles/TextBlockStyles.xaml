@@ -9,4 +9,11 @@
         <Setter Property="FontWeight" Value="Bold" />
         <Setter Property="Foreground" Value="DarkBlue" />
     </Style>
+
+    <Style x:Key="ErrorTextBlock" TargetType="TextBlock">
+        <Setter Property="Foreground" Value="{ThemeResource SystemFillColorCriticalBrush}" />
+        <Setter Property="TextWrapping" Value="Wrap" />
+        <Setter Property="Visibility" Value="Collapsed" />
+        <Setter Property="FontSize" Value="12" />
+    </Style>
 </ResourceDictionary>

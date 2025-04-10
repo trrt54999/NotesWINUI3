@@ -4,6 +4,7 @@ namespace practice2_OPAM_KN24_Daniel_Batko;
 
 public partial class App : Application
 {
+    public static Window MainWindow { get; set; } = new MainWindow();
 
     public App()
     {
@@ -12,10 +13,8 @@ public partial class App : Application
 
     protected override void OnLaunched(LaunchActivatedEventArgs args)
     {
-        window = new MainWindow();
-        window.Activate();
-        window.ExtendsContentIntoTitleBar = true;
+        //  MainWindow = new MainWindow();
+        MainWindow.Activate();
+        MainWindow.ExtendsContentIntoTitleBar = true;
     }
-
-    private Window? window;
 }

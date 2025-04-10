@@ -9,12 +9,58 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
     mc:Ignorable="d">
 
-    <Grid>
-        <TextBlock
-            Margin="0,20,0,0"
-            HorizontalAlignment="Center"
-            VerticalAlignment="Top"
-            FontSize="24"
-            Text="Add Note" />
+    <Grid Padding="32,32,32,24" RowDefinitions="*, Auto">
+        <StackPanel Grid.Row="0" Spacing="16">
+            <StackPanel>
+                <TextBox
+                    x:Name="NotesTitle"
+                    Header="Notes Title"
+                    PlaceholderText="Enter a Title" />
+                <TextBlock x:Name="TitleError" Style="{StaticResource ErrorTextBlock}" />
+            </StackPanel>
+            <StackPanel>
+                <TextBox
+                    x:Name="ContentTextBox"
+                    Height="150"
+                    Header="Note Content"
+                    PlaceholderText="Enter the content of the note"
+                    TextWrapping="Wrap" />
+                <TextBlock x:Name="ContentError" Style="{StaticResource ErrorTextBlock}" />
+            </StackPanel>
+            <StackPanel>
+                <ComboBox
+                    x:Name="CategoryComboBox"
+                    Header="Category"
+                    PlaceholderText="Select a category">
+                    <x:String>Work</x:String>
+                    <x:String>Personal</x:String>
+                    <x:String>Ideas</x:String>
+                    <x:String>Tasks</x:String>
+                </ComboBox>
+                <TextBlock x:Name="CategoryError" Style="{StaticResource ErrorTextBlock}" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Spacing="12">
+                <Button
+                    x:Name="PickImageButton"
+                    Click="PickImageButton_Click"
+                    Content="Select a picture" />
+                <TextBlock
+                    x:Name="ImagePathText"
+                    VerticalAlignment="Center"
+                    Text="The picture is not selected" />
+            </StackPanel>
+
+            <StackPanel
+                Grid.Row="1"
+                HorizontalAlignment="Right"
+                Orientation="Horizontal"
+                Spacing="8">
+                <Button Click="Cancel_Click" Content="Cancel" />
+                <Button
+                    Click="Save_Click"
+                    Content="Create"
+                    Style="{StaticResource AccentButtonStyle}" />
+            </StackPanel>
+        </StackPanel>
     </Grid>
 </Page>
