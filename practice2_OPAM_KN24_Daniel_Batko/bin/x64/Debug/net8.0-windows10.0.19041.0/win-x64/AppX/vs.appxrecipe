@@ -10,15 +10,15 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>29afa897-f809-4356-9cb0-fc5488163901</PackageIdentityName>
     <PackageIdentityPublisher>CN=soryn</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\soryn\source\repos\practice2_OPAM_KN24_Daniel_Batko\practice2_OPAM_KN24_Daniel_Batko\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\soryn\OneDrive\Робочий стіл\2\practice2_OPAM_KN24_Daniel_Batko\practice2_OPAM_KN24_Daniel_Batko\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\soryn\source\repos\practice2_OPAM_KN24_Daniel_Batko\practice2_OPAM_KN24_Daniel_Batko\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppX</LayoutDir>
-    <RegisteredManifestChecksum>46968B788346D169EE728649F13108CC9ABA887A10F4C5BC8BA4F84BC767B165</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\soryn\OneDrive\Робочий стіл\2\practice2_OPAM_KN24_Daniel_Batko\practice2_OPAM_KN24_Daniel_Batko\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppX</LayoutDir>
+    <RegisteredManifestChecksum>630571F6BA773CD91CD1D108722DA7C7782BB369FB320F8EF6D68FD4B0ED9A3A</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>29afa897-f809-4356-9cb0-fc5488163901_1.0.0.0_x64__0qfpx81m3bfzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>29afa897-f809-4356-9cb0-fc5488163901_0qfpx81m3bfzm!App</RegisteredUserModeAppID>
     <RegisteredPackageID>29afa897-f809-4356-9cb0-fc5488163901</RegisteredPackageID>
@@ -26,28 +26,28 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\soryn\source\repos\practice2_OPAM_KN24_Daniel_Batko\practice2_OPAM_KN24_Daniel_Batko\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\soryn\OneDrive\Робочий стіл\2\practice2_OPAM_KN24_Daniel_Batko\practice2_OPAM_KN24_Daniel_Batko\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-04-10T16:16:45.499</Modified>
+      <Modified>2025-04-11T17:03:39.496</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\soryn\source\repos\practice2_OPAM_KN24_Daniel_Batko\practice2_OPAM_KN24_Daniel_Batko\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\soryn\OneDrive\Робочий стіл\2\practice2_OPAM_KN24_Daniel_Batko\practice2_OPAM_KN24_Daniel_Batko\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-04-10T15:42:50.113</Modified>
+      <Modified>2025-04-11T16:48:35.875</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\soryn\source\repos\practice2_OPAM_KN24_Daniel_Batko\practice2_OPAM_KN24_Daniel_Batko\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\practice2_OPAM_KN24_Daniel_Batko.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\soryn\OneDrive\Робочий стіл\2\practice2_OPAM_KN24_Daniel_Batko\practice2_OPAM_KN24_Daniel_Batko\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\practice2_OPAM_KN24_Daniel_Batko.runtimeconfig.json">
       <PackagePath>practice2_OPAM_KN24_Daniel_Batko.runtimeconfig.json</PackagePath>
-      <Modified>2025-04-08T19:04:53.180</Modified>
+      <Modified>2025-04-11T17:03:39.187</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\soryn\source\repos\practice2_OPAM_KN24_Daniel_Batko\practice2_OPAM_KN24_Daniel_Batko\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\practice2_OPAM_KN24_Daniel_Batko.dll">
+    <AppxPackagedFile Include="C:\Users\soryn\OneDrive\Робочий стіл\2\practice2_OPAM_KN24_Daniel_Batko\practice2_OPAM_KN24_Daniel_Batko\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\practice2_OPAM_KN24_Daniel_Batko.dll">
       <PackagePath>practice2_OPAM_KN24_Daniel_Batko.dll</PackagePath>
-      <Modified>2025-04-10T16:16:45.114</Modified>
+      <Modified>2025-04-11T17:03:38.761</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\soryn\source\repos\practice2_OPAM_KN24_Daniel_Batko\practice2_OPAM_KN24_Daniel_Batko\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\soryn\OneDrive\Робочий стіл\2\practice2_OPAM_KN24_Daniel_Batko\practice2_OPAM_KN24_Daniel_Batko\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\apphost.exe">
       <PackagePath>practice2_OPAM_KN24_Daniel_Batko.exe</PackagePath>
-      <Modified>2025-04-10T16:16:45.155</Modified>
+      <Modified>2025-04-11T17:03:38.804</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\soryn\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.15\runtimes\win-x64\lib\net8.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -885,35 +885,39 @@
       <PackagePath>Microsoft.Web.WebView2.Core.Projection.dll</PackagePath>
       <Modified>2024-11-10T08:57:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\soryn\source\repos\practice2_OPAM_KN24_Daniel_Batko\practice2_OPAM_KN24_Daniel_Batko\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\practice2_OPAM_KN24_Daniel_Batko.deps.json">
+    <AppxPackagedFile Include="C:\Users\soryn\OneDrive\Робочий стіл\2\practice2_OPAM_KN24_Daniel_Batko\practice2_OPAM_KN24_Daniel_Batko\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\practice2_OPAM_KN24_Daniel_Batko.deps.json">
       <PackagePath>practice2_OPAM_KN24_Daniel_Batko.deps.json</PackagePath>
-      <Modified>2025-04-10T15:18:12.854</Modified>
+      <Modified>2025-04-11T17:03:39.065</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\soryn\source\repos\practice2_OPAM_KN24_Daniel_Batko\practice2_OPAM_KN24_Daniel_Batko\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\soryn\OneDrive\Робочий стіл\2\practice2_OPAM_KN24_Daniel_Batko\practice2_OPAM_KN24_Daniel_Batko\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2025-01-08T12:00:08.681</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\soryn\source\repos\practice2_OPAM_KN24_Daniel_Batko\practice2_OPAM_KN24_Daniel_Batko\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\soryn\OneDrive\Робочий стіл\2\practice2_OPAM_KN24_Daniel_Batko\practice2_OPAM_KN24_Daniel_Batko\Assets\NotesDefaultLogo.jpg">
+      <PackagePath>Assets\NotesDefaultLogo.jpg</PackagePath>
+      <Modified>2018-07-17T10:46:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\soryn\OneDrive\Робочий стіл\2\practice2_OPAM_KN24_Daniel_Batko\practice2_OPAM_KN24_Daniel_Batko\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <Modified>2025-01-08T12:00:08.682</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\soryn\source\repos\practice2_OPAM_KN24_Daniel_Batko\practice2_OPAM_KN24_Daniel_Batko\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\soryn\OneDrive\Робочий стіл\2\practice2_OPAM_KN24_Daniel_Batko\practice2_OPAM_KN24_Daniel_Batko\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <Modified>2025-01-08T12:00:08.683</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\soryn\source\repos\practice2_OPAM_KN24_Daniel_Batko\practice2_OPAM_KN24_Daniel_Batko\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\soryn\OneDrive\Робочий стіл\2\practice2_OPAM_KN24_Daniel_Batko\practice2_OPAM_KN24_Daniel_Batko\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <Modified>2025-01-08T12:00:08.683</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\soryn\source\repos\practice2_OPAM_KN24_Daniel_Batko\practice2_OPAM_KN24_Daniel_Batko\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\soryn\OneDrive\Робочий стіл\2\practice2_OPAM_KN24_Daniel_Batko\practice2_OPAM_KN24_Daniel_Batko\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <Modified>2025-01-08T12:00:08.684</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\soryn\source\repos\practice2_OPAM_KN24_Daniel_Batko\practice2_OPAM_KN24_Daniel_Batko\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\soryn\OneDrive\Робочий стіл\2\practice2_OPAM_KN24_Daniel_Batko\practice2_OPAM_KN24_Daniel_Batko\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <Modified>2025-01-08T12:00:08.684</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\soryn\source\repos\practice2_OPAM_KN24_Daniel_Batko\practice2_OPAM_KN24_Daniel_Batko\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\soryn\OneDrive\Робочий стіл\2\practice2_OPAM_KN24_Daniel_Batko\practice2_OPAM_KN24_Daniel_Batko\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <Modified>2025-01-08T12:00:08.684</Modified>
     </AppxPackagedFile>

@@ -1448,11 +1448,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\soryn\\source\\repos\\practice2_OPAM_KN24_Daniel_Batko\\practice2_OPAM_KN24_Daniel_Batko\\practice2_OPAM_KN24_Daniel_Batko.csproj",
+      "projectUniqueName": "C:\\Users\\soryn\\OneDrive\\Робочий стіл\\2\\practice2_OPAM_KN24_Daniel_Batko\\practice2_OPAM_KN24_Daniel_Batko\\practice2_OPAM_KN24_Daniel_Batko.csproj",
       "projectName": "practice2_OPAM_KN24_Daniel_Batko",
-      "projectPath": "C:\\Users\\soryn\\source\\repos\\practice2_OPAM_KN24_Daniel_Batko\\practice2_OPAM_KN24_Daniel_Batko\\practice2_OPAM_KN24_Daniel_Batko.csproj",
+      "projectPath": "C:\\Users\\soryn\\OneDrive\\Робочий стіл\\2\\practice2_OPAM_KN24_Daniel_Batko\\practice2_OPAM_KN24_Daniel_Batko\\practice2_OPAM_KN24_Daniel_Batko.csproj",
       "packagesPath": "C:\\Users\\soryn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\soryn\\source\\repos\\practice2_OPAM_KN24_Daniel_Batko\\practice2_OPAM_KN24_Daniel_Batko\\obj\\",
+      "outputPath": "C:\\Users\\soryn\\OneDrive\\Робочий стіл\\2\\practice2_OPAM_KN24_Daniel_Batko\\practice2_OPAM_KN24_Daniel_Batko\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -7,7 +7,7 @@
     Title="practice2_OPAM_KN24_Daniel_Batko">
 
 
-    <NavigationView x:Name="MainNavigationView" SelectionChanged="MainNavigationView_SelectionChanged">
+    <NavigationView x:Name="MainNavigationView" SelectionChanged="MainNavigationView_SelectionChanged" IsBackButtonVisible="Collapsed">
         <NavigationView.Resources>
             <x:String x:Key="AllNotes">All Notes</x:String>
             <x:String x:Key="Reminders">Reminders</x:String>

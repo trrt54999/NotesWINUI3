@@ -16,6 +16,22 @@ public sealed partial class AllNotes : Page
     {
         base.OnNavigatedTo(e);
 
+        const string sharedImagePath = "ms-appx:///Assets/NotesDefaultLogo.jpg";
+
+        var NotesToAdd = new[]
+        {
+            new Notes(
+                title: "Hi",
+                category: "Work",
+                content: "Real for sure",
+                imagePath: sharedImagePath)
+        };
+
+        foreach (var notes in NotesToAdd)
+        {
+            Notes.Add(notes);
+        }
+
         if (e.Parameter is Notes newNotes)
         {
             Notes.Add(newNotes);

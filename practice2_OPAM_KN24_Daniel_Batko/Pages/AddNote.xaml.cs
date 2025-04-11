@@ -14,13 +14,13 @@ namespace practice2_OPAM_KN24_Daniel_Batko.Pages;
 
 public sealed partial class AddNote : Page
 {
-    private StorageFile selectedImageFile = null;
+    private StorageFile? selectedImageFile;
     public AddNote()
     {
         this.InitializeComponent();
 
     }
-    private void Save_Click(object sender, RoutedEventArgs e)
+    private async void Save_Click(object sender, RoutedEventArgs e)
     {
         ClearErrors();
 
@@ -32,7 +32,7 @@ public sealed partial class AddNote : Page
                  content: ContentTextBox.Text
              );
 
-            newNote.ImagePath = SaveImageAync().Result;
+            newNote.ImagePath = await SaveImageAync() ?? "ms-appx:///Assets/NotesDefaultLogo.jpg";
             Frame.Navigate(typeof(AllNotes), newNote);
         }
         catch (ValidationException ex)
@@ -68,14 +68,23 @@ public sealed partial class AddNote : Page
         Frame.Navigate(typeof(AllNotes));
     }
 
-    private async Task<string> SaveImageAync()
+    private async Task<string?> SaveImageAync()
     {
         if (selectedImageFile == null) return null;
 
-        var localFolder = ApplicationData.Current.LocalFolder;
-        var newFile = await localFolder.CreateFileAsync(selectedImageFile.Name, CreationCollisionOption.ReplaceExisting);
-        await selectedImageFile.CopyAndReplaceAsync(newFile);
-        return newFile.Name;
+        try
+        {
+
+            var localFolder = ApplicationData.Current.LocalFolder;
+            var newFile = await localFolder.CreateFileAsync(selectedImageFile.Name, CreationCollisionOption.GenerateUniqueName);
+            await selectedImageFile.CopyAndReplaceAsync(newFile);
+            return newFile.Path;
+        }
+        catch (Exception ex)
+        {
+            ShowError(ImagePathText, $"Error saving image: {ex.Message}");
+            return null;
+        }
     }
 
     private void ClearErrors()

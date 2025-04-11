@@ -1,6 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup />
+  <PropertyGroup>
+    <PackageLogoSource>C:\Users\soryn\OneDrive\Робочий стіл\360_F_1328168271_KL0ftRdT36s8sduMaKhNTNpk9BxmABh5.jpg</PackageLogoSource>
+    <Source>C:\Users\soryn\OneDrive\Робочий стіл\360_F_1328168271_KL0ftRdT36s8sduMaKhNTNpk9BxmABh5.jpg</Source>
+    <SmallTileSource>C:\Users\soryn\OneDrive\Робочий стіл\360_F_1328168271_KL0ftRdT36s8sduMaKhNTNpk9BxmABh5.jpg</SmallTileSource>
+    <MediumTileSource>C:\Users\soryn\OneDrive\Робочий стіл\360_F_1328168271_KL0ftRdT36s8sduMaKhNTNpk9BxmABh5.jpg</MediumTileSource>
+    <WideTileSource>C:\Users\soryn\OneDrive\Робочий стіл\360_F_1328168271_KL0ftRdT36s8sduMaKhNTNpk9BxmABh5.jpg</WideTileSource>
+    <LargeTileSource>C:\Users\soryn\OneDrive\Робочий стіл\360_F_1328168271_KL0ftRdT36s8sduMaKhNTNpk9BxmABh5.jpg</LargeTileSource>
+    <AppIconSource>C:\Users\soryn\OneDrive\Робочий стіл\360_F_1328168271_KL0ftRdT36s8sduMaKhNTNpk9BxmABh5.jpg</AppIconSource>
+    <SplashScreenSource>C:\Users\soryn\OneDrive\Робочий стіл\360_F_1328168271_KL0ftRdT36s8sduMaKhNTNpk9BxmABh5.jpg</SplashScreenSource>
+  </PropertyGroup>
   <ItemGroup>
     <None Update="App.xaml">
       <SubType>Designer</SubType>
@@ -11,6 +20,12 @@
     <None Update="Package.appxmanifest">
       <SubType>Designer</SubType>
     </None>
+    <Page Update="Styles\PageStyles.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\NotesCard.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Styles\TextBlockStyles.xaml">
       <SubType>Designer</SubType>
     </Page>

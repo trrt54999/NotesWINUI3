@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("practice2_OPAM_KN24_Daniel_Batko")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86f19cb54a39568bfc8e12764110fc456814cc3a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1579c0ee0ae08de09f6e6d77d5d276c27ad5d86c")]
 [assembly: System.Reflection.AssemblyProductAttribute("practice2_OPAM_KN24_Daniel_Batko")]
 [assembly: System.Reflection.AssemblyTitleAttribute("practice2_OPAM_KN24_Daniel_Batko")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

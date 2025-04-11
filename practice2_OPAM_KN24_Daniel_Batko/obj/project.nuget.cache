@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rFSZg+mqcpw=",
+  "dgSpecHash": "c2SK4RbRLgg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\soryn\\source\\repos\\practice2_OPAM_KN24_Daniel_Batko\\practice2_OPAM_KN24_Daniel_Batko\\practice2_OPAM_KN24_Daniel_Batko.csproj",
+  "projectFilePath": "C:\\Users\\soryn\\OneDrive\\Робочий стіл\\2\\practice2_OPAM_KN24_Daniel_Batko\\practice2_OPAM_KN24_Daniel_Batko\\practice2_OPAM_KN24_Daniel_Batko.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\soryn\\.nuget\\packages\\microsoft.web.webview2\\1.0.2903.40\\microsoft.web.webview2.1.0.2903.40.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.26100.1742\\microsoft.windows.sdk.buildtools.10.0.26100.1742.nupkg.sha512",
