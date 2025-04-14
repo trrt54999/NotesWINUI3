@@ -9,14 +9,18 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
     mc:Ignorable="d">
 
-    <Grid RowDefinitions= "*, Auto" Style= "{StaticResource PageGridStyle}">
+    <Grid RowDefinitions="*, Auto" Style="{StaticResource PageGridStyle}">
         <StackPanel Grid.Row="0" Spacing="16">
             <StackPanel>
                 <TextBox
                     x:Name="NotesTitle"
                     Header="Notes Title"
-                    PlaceholderText="Enter a Title" />
-                <TextBlock x:Name="TitleError" Style="{StaticResource ErrorTextBlock}" />
+                    PlaceholderText="Enter a Title"
+                    Text="{x:Bind ViewModel.Title, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                <TextBlock
+                    x:Name="TitleErrorTextBlock"
+                    Style="{StaticResource ErrorTextBlock}"
+                    Visibility="{x:Bind OnTitleChanged(ViewModel.Title), Mode=OneWay}" />
             </StackPanel>
             <StackPanel>
                 <TextBox
@@ -24,20 +28,28 @@
                     Height="150"
                     Header="Note Content"
                     PlaceholderText="Enter the content of the note"
+                    Text="{x:Bind ViewModel.Content, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                     TextWrapping="Wrap" />
-                <TextBlock x:Name="ContentError" Style="{StaticResource ErrorTextBlock}" />
+                <TextBlock
+                    x:Name="ContentErrorTextBlock"
+                    Style="{StaticResource ErrorTextBlock}"
+                    Visibility="{x:Bind OnContentChanged(ViewModel.Content), Mode=OneWay}" />
             </StackPanel>
             <StackPanel>
                 <ComboBox
                     x:Name="CategoryComboBox"
                     Header="Category"
-                    PlaceholderText="Select a category">
+                    PlaceholderText="Select a category"
+                    Text="{x:Bind ViewModel.Category, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
                     <x:String>Work</x:String>
                     <x:String>Personal</x:String>
                     <x:String>Ideas</x:String>
                     <x:String>Tasks</x:String>
                 </ComboBox>
-                <TextBlock x:Name="CategoryError" Style="{StaticResource ErrorTextBlock}" />
+                <TextBlock
+                    x:Name="CategoryErrorTextBlock"
+                    Style="{StaticResource ErrorTextBlock}"
+                    Visibility="{x:Bind OnCategoryChanged(ViewModel.Category), Mode=OneWay}" />
             </StackPanel>
             <StackPanel Orientation="Horizontal" Spacing="12">
                 <Button

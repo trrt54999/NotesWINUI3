@@ -226,7 +226,7 @@ namespace practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_Xaml
         
         private void InitTypeTables()
         {
-            _typeNameTable = new string[60];
+            _typeNameTable = new string[61];
             _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.XamlControlsResources";
             _typeNameTable[1] = "Microsoft.UI.Xaml.ResourceDictionary";
             _typeNameTable[2] = "Object";
@@ -262,33 +262,34 @@ namespace practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_Xaml
             _typeNameTable[32] = "practice2_OPAM_KN24_Daniel_Batko.Pages.AddNote";
             _typeNameTable[33] = "Microsoft.UI.Xaml.Controls.Page";
             _typeNameTable[34] = "Microsoft.UI.Xaml.Controls.UserControl";
-            _typeNameTable[35] = "Microsoft.UI.Xaml.Controls.ItemsView";
-            _typeNameTable[36] = "Microsoft.UI.Xaml.IElementFactory";
-            _typeNameTable[37] = "Microsoft.UI.Xaml.Controls.Layout";
-            _typeNameTable[38] = "Int32";
-            _typeNameTable[39] = "Microsoft.UI.Xaml.Controls.ItemCollectionTransitionProvider";
-            _typeNameTable[40] = "Microsoft.UI.Xaml.Controls.ScrollView";
-            _typeNameTable[41] = "System.Collections.Generic.IReadOnlyList`1<Object>";
-            _typeNameTable[42] = "Microsoft.UI.Xaml.Controls.ItemsViewSelectionMode";
-            _typeNameTable[43] = "Microsoft.UI.Xaml.Controls.Primitives.IScrollController";
-            _typeNameTable[44] = "Microsoft.UI.Xaml.Controls.ItemContainer";
-            _typeNameTable[45] = "practice2_OPAM_KN24_Daniel_Batko.UserControls.NotesCard";
-            _typeNameTable[46] = "practice2_OPAM_KN24_Daniel_Batko.Entities.Notes";
-            _typeNameTable[47] = "Microsoft.UI.Xaml.Controls.UniformGridLayout";
-            _typeNameTable[48] = "Microsoft.UI.Xaml.Controls.VirtualizingLayout";
-            _typeNameTable[49] = "Microsoft.UI.Xaml.Controls.Orientation";
-            _typeNameTable[50] = "Microsoft.UI.Xaml.Controls.UniformGridLayoutItemsJustification";
-            _typeNameTable[51] = "Microsoft.UI.Xaml.Controls.UniformGridLayoutItemsStretch";
-            _typeNameTable[52] = "Microsoft.UI.Xaml.Controls.IndexBasedLayoutOrientation";
-            _typeNameTable[53] = "practice2_OPAM_KN24_Daniel_Batko.Pages.AllNotes";
-            _typeNameTable[54] = "practice2_OPAM_KN24_Daniel_Batko.Pages.Categories";
-            _typeNameTable[55] = "practice2_OPAM_KN24_Daniel_Batko.Pages.Favorites";
-            _typeNameTable[56] = "practice2_OPAM_KN24_Daniel_Batko.Pages.Reminders";
-            _typeNameTable[57] = "practice2_OPAM_KN24_Daniel_Batko.Pages.Settings";
-            _typeNameTable[58] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
-            _typeNameTable[59] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
+            _typeNameTable[35] = "practice2_OPAM_KN24_Daniel_Batko.ViewModel.AddNotesViewModel";
+            _typeNameTable[36] = "Microsoft.UI.Xaml.Controls.ItemsView";
+            _typeNameTable[37] = "Microsoft.UI.Xaml.IElementFactory";
+            _typeNameTable[38] = "Microsoft.UI.Xaml.Controls.Layout";
+            _typeNameTable[39] = "Int32";
+            _typeNameTable[40] = "Microsoft.UI.Xaml.Controls.ItemCollectionTransitionProvider";
+            _typeNameTable[41] = "Microsoft.UI.Xaml.Controls.ScrollView";
+            _typeNameTable[42] = "System.Collections.Generic.IReadOnlyList`1<Object>";
+            _typeNameTable[43] = "Microsoft.UI.Xaml.Controls.ItemsViewSelectionMode";
+            _typeNameTable[44] = "Microsoft.UI.Xaml.Controls.Primitives.IScrollController";
+            _typeNameTable[45] = "Microsoft.UI.Xaml.Controls.ItemContainer";
+            _typeNameTable[46] = "practice2_OPAM_KN24_Daniel_Batko.UserControls.NotesCard";
+            _typeNameTable[47] = "practice2_OPAM_KN24_Daniel_Batko.Entities.Notes";
+            _typeNameTable[48] = "Microsoft.UI.Xaml.Controls.UniformGridLayout";
+            _typeNameTable[49] = "Microsoft.UI.Xaml.Controls.VirtualizingLayout";
+            _typeNameTable[50] = "Microsoft.UI.Xaml.Controls.Orientation";
+            _typeNameTable[51] = "Microsoft.UI.Xaml.Controls.UniformGridLayoutItemsJustification";
+            _typeNameTable[52] = "Microsoft.UI.Xaml.Controls.UniformGridLayoutItemsStretch";
+            _typeNameTable[53] = "Microsoft.UI.Xaml.Controls.IndexBasedLayoutOrientation";
+            _typeNameTable[54] = "practice2_OPAM_KN24_Daniel_Batko.Pages.AllNotes";
+            _typeNameTable[55] = "practice2_OPAM_KN24_Daniel_Batko.Pages.Categories";
+            _typeNameTable[56] = "practice2_OPAM_KN24_Daniel_Batko.Pages.Favorites";
+            _typeNameTable[57] = "practice2_OPAM_KN24_Daniel_Batko.Pages.Reminders";
+            _typeNameTable[58] = "practice2_OPAM_KN24_Daniel_Batko.Pages.Settings";
+            _typeNameTable[59] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
+            _typeNameTable[60] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
 
-            _typeTable = new global::System.Type[60];
+            _typeTable = new global::System.Type[61];
             _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.ResourceDictionary);
             _typeTable[2] = typeof(global::System.Object);
@@ -324,31 +325,32 @@ namespace practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_Xaml
             _typeTable[32] = typeof(global::practice2_OPAM_KN24_Daniel_Batko.Pages.AddNote);
             _typeTable[33] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
             _typeTable[34] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
-            _typeTable[35] = typeof(global::Microsoft.UI.Xaml.Controls.ItemsView);
-            _typeTable[36] = typeof(global::Microsoft.UI.Xaml.IElementFactory);
-            _typeTable[37] = typeof(global::Microsoft.UI.Xaml.Controls.Layout);
-            _typeTable[38] = typeof(global::System.Int32);
-            _typeTable[39] = typeof(global::Microsoft.UI.Xaml.Controls.ItemCollectionTransitionProvider);
-            _typeTable[40] = typeof(global::Microsoft.UI.Xaml.Controls.ScrollView);
-            _typeTable[41] = typeof(global::System.Collections.Generic.IReadOnlyList<global::System.Object>);
-            _typeTable[42] = typeof(global::Microsoft.UI.Xaml.Controls.ItemsViewSelectionMode);
-            _typeTable[43] = typeof(global::Microsoft.UI.Xaml.Controls.Primitives.IScrollController);
-            _typeTable[44] = typeof(global::Microsoft.UI.Xaml.Controls.ItemContainer);
-            _typeTable[45] = typeof(global::practice2_OPAM_KN24_Daniel_Batko.UserControls.NotesCard);
-            _typeTable[46] = typeof(global::practice2_OPAM_KN24_Daniel_Batko.Entities.Notes);
-            _typeTable[47] = typeof(global::Microsoft.UI.Xaml.Controls.UniformGridLayout);
-            _typeTable[48] = typeof(global::Microsoft.UI.Xaml.Controls.VirtualizingLayout);
-            _typeTable[49] = typeof(global::Microsoft.UI.Xaml.Controls.Orientation);
-            _typeTable[50] = typeof(global::Microsoft.UI.Xaml.Controls.UniformGridLayoutItemsJustification);
-            _typeTable[51] = typeof(global::Microsoft.UI.Xaml.Controls.UniformGridLayoutItemsStretch);
-            _typeTable[52] = typeof(global::Microsoft.UI.Xaml.Controls.IndexBasedLayoutOrientation);
-            _typeTable[53] = typeof(global::practice2_OPAM_KN24_Daniel_Batko.Pages.AllNotes);
-            _typeTable[54] = typeof(global::practice2_OPAM_KN24_Daniel_Batko.Pages.Categories);
-            _typeTable[55] = typeof(global::practice2_OPAM_KN24_Daniel_Batko.Pages.Favorites);
-            _typeTable[56] = typeof(global::practice2_OPAM_KN24_Daniel_Batko.Pages.Reminders);
-            _typeTable[57] = typeof(global::practice2_OPAM_KN24_Daniel_Batko.Pages.Settings);
-            _typeTable[58] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
-            _typeTable[59] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
+            _typeTable[35] = typeof(global::practice2_OPAM_KN24_Daniel_Batko.ViewModel.AddNotesViewModel);
+            _typeTable[36] = typeof(global::Microsoft.UI.Xaml.Controls.ItemsView);
+            _typeTable[37] = typeof(global::Microsoft.UI.Xaml.IElementFactory);
+            _typeTable[38] = typeof(global::Microsoft.UI.Xaml.Controls.Layout);
+            _typeTable[39] = typeof(global::System.Int32);
+            _typeTable[40] = typeof(global::Microsoft.UI.Xaml.Controls.ItemCollectionTransitionProvider);
+            _typeTable[41] = typeof(global::Microsoft.UI.Xaml.Controls.ScrollView);
+            _typeTable[42] = typeof(global::System.Collections.Generic.IReadOnlyList<global::System.Object>);
+            _typeTable[43] = typeof(global::Microsoft.UI.Xaml.Controls.ItemsViewSelectionMode);
+            _typeTable[44] = typeof(global::Microsoft.UI.Xaml.Controls.Primitives.IScrollController);
+            _typeTable[45] = typeof(global::Microsoft.UI.Xaml.Controls.ItemContainer);
+            _typeTable[46] = typeof(global::practice2_OPAM_KN24_Daniel_Batko.UserControls.NotesCard);
+            _typeTable[47] = typeof(global::practice2_OPAM_KN24_Daniel_Batko.Entities.Notes);
+            _typeTable[48] = typeof(global::Microsoft.UI.Xaml.Controls.UniformGridLayout);
+            _typeTable[49] = typeof(global::Microsoft.UI.Xaml.Controls.VirtualizingLayout);
+            _typeTable[50] = typeof(global::Microsoft.UI.Xaml.Controls.Orientation);
+            _typeTable[51] = typeof(global::Microsoft.UI.Xaml.Controls.UniformGridLayoutItemsJustification);
+            _typeTable[52] = typeof(global::Microsoft.UI.Xaml.Controls.UniformGridLayoutItemsStretch);
+            _typeTable[53] = typeof(global::Microsoft.UI.Xaml.Controls.IndexBasedLayoutOrientation);
+            _typeTable[54] = typeof(global::practice2_OPAM_KN24_Daniel_Batko.Pages.AllNotes);
+            _typeTable[55] = typeof(global::practice2_OPAM_KN24_Daniel_Batko.Pages.Categories);
+            _typeTable[56] = typeof(global::practice2_OPAM_KN24_Daniel_Batko.Pages.Favorites);
+            _typeTable[57] = typeof(global::practice2_OPAM_KN24_Daniel_Batko.Pages.Reminders);
+            _typeTable[58] = typeof(global::practice2_OPAM_KN24_Daniel_Batko.Pages.Settings);
+            _typeTable[59] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
+            _typeTable[60] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -390,19 +392,21 @@ namespace practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_Xaml
         private object Activate_28_InfoBadge() { return new global::Microsoft.UI.Xaml.Controls.InfoBadge(); }
         private object Activate_30_MainWindow() { return new global::practice2_OPAM_KN24_Daniel_Batko.MainWindow(); }
         private object Activate_32_AddNote() { return new global::practice2_OPAM_KN24_Daniel_Batko.Pages.AddNote(); }
-        private object Activate_35_ItemsView() { return new global::Microsoft.UI.Xaml.Controls.ItemsView(); }
-        private object Activate_39_ItemCollectionTransitionProvider() { return new global::Microsoft.UI.Xaml.Controls.ItemCollectionTransitionProvider(); }
-        private object Activate_40_ScrollView() { return new global::Microsoft.UI.Xaml.Controls.ScrollView(); }
-        private object Activate_44_ItemContainer() { return new global::Microsoft.UI.Xaml.Controls.ItemContainer(); }
-        private object Activate_45_NotesCard() { return new global::practice2_OPAM_KN24_Daniel_Batko.UserControls.NotesCard(); }
-        private object Activate_47_UniformGridLayout() { return new global::Microsoft.UI.Xaml.Controls.UniformGridLayout(); }
-        private object Activate_48_VirtualizingLayout() { return new global::Microsoft.UI.Xaml.Controls.VirtualizingLayout(); }
-        private object Activate_53_AllNotes() { return new global::practice2_OPAM_KN24_Daniel_Batko.Pages.AllNotes(); }
-        private object Activate_54_Categories() { return new global::practice2_OPAM_KN24_Daniel_Batko.Pages.Categories(); }
-        private object Activate_55_Favorites() { return new global::practice2_OPAM_KN24_Daniel_Batko.Pages.Favorites(); }
-        private object Activate_56_Reminders() { return new global::practice2_OPAM_KN24_Daniel_Batko.Pages.Reminders(); }
-        private object Activate_57_Settings() { return new global::practice2_OPAM_KN24_Daniel_Batko.Pages.Settings(); }
-        private object Activate_58_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
+        private object Activate_35_AddNotesViewModel() { return new global::practice2_OPAM_KN24_Daniel_Batko.ViewModel.AddNotesViewModel(); }
+        private object Activate_36_ItemsView() { return new global::Microsoft.UI.Xaml.Controls.ItemsView(); }
+        private object Activate_40_ItemCollectionTransitionProvider() { return new global::Microsoft.UI.Xaml.Controls.ItemCollectionTransitionProvider(); }
+        private object Activate_41_ScrollView() { return new global::Microsoft.UI.Xaml.Controls.ScrollView(); }
+        private object Activate_45_ItemContainer() { return new global::Microsoft.UI.Xaml.Controls.ItemContainer(); }
+        private object Activate_46_NotesCard() { return new global::practice2_OPAM_KN24_Daniel_Batko.UserControls.NotesCard(); }
+        private object Activate_47_Notes() { return new global::practice2_OPAM_KN24_Daniel_Batko.Entities.Notes(); }
+        private object Activate_48_UniformGridLayout() { return new global::Microsoft.UI.Xaml.Controls.UniformGridLayout(); }
+        private object Activate_49_VirtualizingLayout() { return new global::Microsoft.UI.Xaml.Controls.VirtualizingLayout(); }
+        private object Activate_54_AllNotes() { return new global::practice2_OPAM_KN24_Daniel_Batko.Pages.AllNotes(); }
+        private object Activate_55_Categories() { return new global::practice2_OPAM_KN24_Daniel_Batko.Pages.Categories(); }
+        private object Activate_56_Favorites() { return new global::practice2_OPAM_KN24_Daniel_Batko.Pages.Favorites(); }
+        private object Activate_57_Reminders() { return new global::practice2_OPAM_KN24_Daniel_Batko.Pages.Reminders(); }
+        private object Activate_58_Settings() { return new global::practice2_OPAM_KN24_Daniel_Batko.Pages.Settings(); }
+        private object Activate_59_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
         private void StaticInitializer_0_XamlControlsResources() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources).TypeHandle);
         private void StaticInitializer_4_NavigationView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationView).TypeHandle);
         private void StaticInitializer_6_NavigationViewBackButtonVisible() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible).TypeHandle);
@@ -420,28 +424,29 @@ namespace practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_Xaml
         private void StaticInitializer_28_InfoBadge() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.InfoBadge).TypeHandle);
         private void StaticInitializer_30_MainWindow() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::practice2_OPAM_KN24_Daniel_Batko.MainWindow).TypeHandle);
         private void StaticInitializer_32_AddNote() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::practice2_OPAM_KN24_Daniel_Batko.Pages.AddNote).TypeHandle);
-        private void StaticInitializer_35_ItemsView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.ItemsView).TypeHandle);
-        private void StaticInitializer_37_Layout() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.Layout).TypeHandle);
-        private void StaticInitializer_39_ItemCollectionTransitionProvider() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.ItemCollectionTransitionProvider).TypeHandle);
-        private void StaticInitializer_40_ScrollView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.ScrollView).TypeHandle);
-        private void StaticInitializer_41_IReadOnlyList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IReadOnlyList<global::System.Object>).TypeHandle);
-        private void StaticInitializer_42_ItemsViewSelectionMode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.ItemsViewSelectionMode).TypeHandle);
-        private void StaticInitializer_43_IScrollController() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.Primitives.IScrollController).TypeHandle);
-        private void StaticInitializer_44_ItemContainer() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.ItemContainer).TypeHandle);
-        private void StaticInitializer_45_NotesCard() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::practice2_OPAM_KN24_Daniel_Batko.UserControls.NotesCard).TypeHandle);
-        private void StaticInitializer_46_Notes() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::practice2_OPAM_KN24_Daniel_Batko.Entities.Notes).TypeHandle);
-        private void StaticInitializer_47_UniformGridLayout() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.UniformGridLayout).TypeHandle);
-        private void StaticInitializer_48_VirtualizingLayout() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.VirtualizingLayout).TypeHandle);
-        private void StaticInitializer_50_UniformGridLayoutItemsJustification() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.UniformGridLayoutItemsJustification).TypeHandle);
-        private void StaticInitializer_51_UniformGridLayoutItemsStretch() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.UniformGridLayoutItemsStretch).TypeHandle);
-        private void StaticInitializer_52_IndexBasedLayoutOrientation() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.IndexBasedLayoutOrientation).TypeHandle);
-        private void StaticInitializer_53_AllNotes() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::practice2_OPAM_KN24_Daniel_Batko.Pages.AllNotes).TypeHandle);
-        private void StaticInitializer_54_Categories() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::practice2_OPAM_KN24_Daniel_Batko.Pages.Categories).TypeHandle);
-        private void StaticInitializer_55_Favorites() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::practice2_OPAM_KN24_Daniel_Batko.Pages.Favorites).TypeHandle);
-        private void StaticInitializer_56_Reminders() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::practice2_OPAM_KN24_Daniel_Batko.Pages.Reminders).TypeHandle);
-        private void StaticInitializer_57_Settings() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::practice2_OPAM_KN24_Daniel_Batko.Pages.Settings).TypeHandle);
-        private void StaticInitializer_58_TreeViewNode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode).TypeHandle);
-        private void StaticInitializer_59_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>).TypeHandle);
+        private void StaticInitializer_35_AddNotesViewModel() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::practice2_OPAM_KN24_Daniel_Batko.ViewModel.AddNotesViewModel).TypeHandle);
+        private void StaticInitializer_36_ItemsView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.ItemsView).TypeHandle);
+        private void StaticInitializer_38_Layout() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.Layout).TypeHandle);
+        private void StaticInitializer_40_ItemCollectionTransitionProvider() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.ItemCollectionTransitionProvider).TypeHandle);
+        private void StaticInitializer_41_ScrollView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.ScrollView).TypeHandle);
+        private void StaticInitializer_42_IReadOnlyList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IReadOnlyList<global::System.Object>).TypeHandle);
+        private void StaticInitializer_43_ItemsViewSelectionMode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.ItemsViewSelectionMode).TypeHandle);
+        private void StaticInitializer_44_IScrollController() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.Primitives.IScrollController).TypeHandle);
+        private void StaticInitializer_45_ItemContainer() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.ItemContainer).TypeHandle);
+        private void StaticInitializer_46_NotesCard() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::practice2_OPAM_KN24_Daniel_Batko.UserControls.NotesCard).TypeHandle);
+        private void StaticInitializer_47_Notes() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::practice2_OPAM_KN24_Daniel_Batko.Entities.Notes).TypeHandle);
+        private void StaticInitializer_48_UniformGridLayout() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.UniformGridLayout).TypeHandle);
+        private void StaticInitializer_49_VirtualizingLayout() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.VirtualizingLayout).TypeHandle);
+        private void StaticInitializer_51_UniformGridLayoutItemsJustification() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.UniformGridLayoutItemsJustification).TypeHandle);
+        private void StaticInitializer_52_UniformGridLayoutItemsStretch() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.UniformGridLayoutItemsStretch).TypeHandle);
+        private void StaticInitializer_53_IndexBasedLayoutOrientation() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.IndexBasedLayoutOrientation).TypeHandle);
+        private void StaticInitializer_54_AllNotes() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::practice2_OPAM_KN24_Daniel_Batko.Pages.AllNotes).TypeHandle);
+        private void StaticInitializer_55_Categories() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::practice2_OPAM_KN24_Daniel_Batko.Pages.Categories).TypeHandle);
+        private void StaticInitializer_56_Favorites() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::practice2_OPAM_KN24_Daniel_Batko.Pages.Favorites).TypeHandle);
+        private void StaticInitializer_57_Reminders() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::practice2_OPAM_KN24_Daniel_Batko.Pages.Reminders).TypeHandle);
+        private void StaticInitializer_58_Settings() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::practice2_OPAM_KN24_Daniel_Batko.Pages.Settings).TypeHandle);
+        private void StaticInitializer_59_TreeViewNode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode).TypeHandle);
+        private void StaticInitializer_60_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>).TypeHandle);
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
@@ -455,7 +460,7 @@ namespace practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_Xaml
             var newItem = (global::System.Object)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_59_IList(object instance, object item)
+        private void VectorAdd_60_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Controls.TreeViewNode>)instance;
             var newItem = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)item;
@@ -712,6 +717,7 @@ namespace practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_Xaml
                 userType = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_32_AddNote;
                 userType.StaticInitializer = StaticInitializer_32_AddNote;
+                userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -724,10 +730,18 @@ namespace practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_Xaml
                 xamlType = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 35:   //  Microsoft.UI.Xaml.Controls.ItemsView
+            case 35:   //  practice2_OPAM_KN24_Daniel_Batko.ViewModel.AddNotesViewModel
+                userType = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.StaticInitializer = StaticInitializer_35_AddNotesViewModel;
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 36:   //  Microsoft.UI.Xaml.Controls.ItemsView
                 userType = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_35_ItemsView;
-                userType.StaticInitializer = StaticInitializer_35_ItemsView;
+                userType.Activator = Activate_36_ItemsView;
+                userType.StaticInitializer = StaticInitializer_36_ItemsView;
                 userType.AddMemberName("ItemsSource");
                 userType.AddMemberName("ItemTemplate");
                 userType.AddMemberName("Layout");
@@ -742,47 +756,47 @@ namespace practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_Xaml
                 xamlType = userType;
                 break;
 
-            case 36:   //  Microsoft.UI.Xaml.IElementFactory
+            case 37:   //  Microsoft.UI.Xaml.IElementFactory
                 xamlType = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 37:   //  Microsoft.UI.Xaml.Controls.Layout
+            case 38:   //  Microsoft.UI.Xaml.Controls.Layout
                 userType = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
-                userType.StaticInitializer = StaticInitializer_37_Layout;
+                userType.StaticInitializer = StaticInitializer_38_Layout;
                 userType.AddMemberName("IndexBasedLayoutOrientation");
                 xamlType = userType;
                 break;
 
-            case 38:   //  Int32
+            case 39:   //  Int32
                 xamlType = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 39:   //  Microsoft.UI.Xaml.Controls.ItemCollectionTransitionProvider
+            case 40:   //  Microsoft.UI.Xaml.Controls.ItemCollectionTransitionProvider
                 userType = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.StaticInitializer = StaticInitializer_39_ItemCollectionTransitionProvider;
+                userType.StaticInitializer = StaticInitializer_40_ItemCollectionTransitionProvider;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 40:   //  Microsoft.UI.Xaml.Controls.ScrollView
+            case 41:   //  Microsoft.UI.Xaml.Controls.ScrollView
                 userType = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
-                userType.StaticInitializer = StaticInitializer_40_ScrollView;
+                userType.StaticInitializer = StaticInitializer_41_ScrollView;
                 userType.SetContentPropertyName("Microsoft.UI.Xaml.Controls.ScrollView.Content");
                 userType.AddMemberName("Content");
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 41:   //  System.Collections.Generic.IReadOnlyList`1<Object>
+            case 42:   //  System.Collections.Generic.IReadOnlyList`1<Object>
                 userType = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.StaticInitializer = StaticInitializer_41_IReadOnlyList;
+                userType.StaticInitializer = StaticInitializer_42_IReadOnlyList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 42:   //  Microsoft.UI.Xaml.Controls.ItemsViewSelectionMode
+            case 43:   //  Microsoft.UI.Xaml.Controls.ItemsViewSelectionMode
                 userType = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.StaticInitializer = StaticInitializer_42_ItemsViewSelectionMode;
+                userType.StaticInitializer = StaticInitializer_43_ItemsViewSelectionMode;
                 userType.AddEnumValue("None", global::Microsoft.UI.Xaml.Controls.ItemsViewSelectionMode.None);
                 userType.AddEnumValue("Single", global::Microsoft.UI.Xaml.Controls.ItemsViewSelectionMode.Single);
                 userType.AddEnumValue("Multiple", global::Microsoft.UI.Xaml.Controls.ItemsViewSelectionMode.Multiple);
@@ -790,44 +804,44 @@ namespace practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_Xaml
                 xamlType = userType;
                 break;
 
-            case 43:   //  Microsoft.UI.Xaml.Controls.Primitives.IScrollController
+            case 44:   //  Microsoft.UI.Xaml.Controls.Primitives.IScrollController
                 userType = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.StaticInitializer = StaticInitializer_43_IScrollController;
+                userType.StaticInitializer = StaticInitializer_44_IScrollController;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 44:   //  Microsoft.UI.Xaml.Controls.ItemContainer
+            case 45:   //  Microsoft.UI.Xaml.Controls.ItemContainer
                 userType = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_44_ItemContainer;
-                userType.StaticInitializer = StaticInitializer_44_ItemContainer;
+                userType.Activator = Activate_45_ItemContainer;
+                userType.StaticInitializer = StaticInitializer_45_ItemContainer;
                 userType.SetContentPropertyName("Microsoft.UI.Xaml.Controls.ItemContainer.Child");
                 userType.AddMemberName("Child");
                 userType.AddMemberName("IsSelected");
                 xamlType = userType;
                 break;
 
-            case 45:   //  practice2_OPAM_KN24_Daniel_Batko.UserControls.NotesCard
+            case 46:   //  practice2_OPAM_KN24_Daniel_Batko.UserControls.NotesCard
                 userType = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_45_NotesCard;
-                userType.StaticInitializer = StaticInitializer_45_NotesCard;
+                userType.Activator = Activate_46_NotesCard;
+                userType.StaticInitializer = StaticInitializer_46_NotesCard;
                 userType.AddMemberName("Notes");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 46:   //  practice2_OPAM_KN24_Daniel_Batko.Entities.Notes
+            case 47:   //  practice2_OPAM_KN24_Daniel_Batko.Entities.Notes
                 userType = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.StaticInitializer = StaticInitializer_46_Notes;
+                userType.StaticInitializer = StaticInitializer_47_Notes;
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 47:   //  Microsoft.UI.Xaml.Controls.UniformGridLayout
+            case 48:   //  Microsoft.UI.Xaml.Controls.UniformGridLayout
                 userType = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.VirtualizingLayout"));
-                userType.Activator = Activate_47_UniformGridLayout;
-                userType.StaticInitializer = StaticInitializer_47_UniformGridLayout;
+                userType.Activator = Activate_48_UniformGridLayout;
+                userType.StaticInitializer = StaticInitializer_48_UniformGridLayout;
                 userType.AddMemberName("MaximumRowsOrColumns");
                 userType.AddMemberName("MinColumnSpacing");
                 userType.AddMemberName("MinItemWidth");
@@ -839,20 +853,20 @@ namespace practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_Xaml
                 xamlType = userType;
                 break;
 
-            case 48:   //  Microsoft.UI.Xaml.Controls.VirtualizingLayout
+            case 49:   //  Microsoft.UI.Xaml.Controls.VirtualizingLayout
                 userType = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Layout"));
-                userType.Activator = Activate_48_VirtualizingLayout;
-                userType.StaticInitializer = StaticInitializer_48_VirtualizingLayout;
+                userType.Activator = Activate_49_VirtualizingLayout;
+                userType.StaticInitializer = StaticInitializer_49_VirtualizingLayout;
                 xamlType = userType;
                 break;
 
-            case 49:   //  Microsoft.UI.Xaml.Controls.Orientation
+            case 50:   //  Microsoft.UI.Xaml.Controls.Orientation
                 xamlType = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 50:   //  Microsoft.UI.Xaml.Controls.UniformGridLayoutItemsJustification
+            case 51:   //  Microsoft.UI.Xaml.Controls.UniformGridLayoutItemsJustification
                 userType = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.StaticInitializer = StaticInitializer_50_UniformGridLayoutItemsJustification;
+                userType.StaticInitializer = StaticInitializer_51_UniformGridLayoutItemsJustification;
                 userType.AddEnumValue("Start", global::Microsoft.UI.Xaml.Controls.UniformGridLayoutItemsJustification.Start);
                 userType.AddEnumValue("Center", global::Microsoft.UI.Xaml.Controls.UniformGridLayoutItemsJustification.Center);
                 userType.AddEnumValue("End", global::Microsoft.UI.Xaml.Controls.UniformGridLayoutItemsJustification.End);
@@ -862,68 +876,69 @@ namespace practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_Xaml
                 xamlType = userType;
                 break;
 
-            case 51:   //  Microsoft.UI.Xaml.Controls.UniformGridLayoutItemsStretch
+            case 52:   //  Microsoft.UI.Xaml.Controls.UniformGridLayoutItemsStretch
                 userType = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.StaticInitializer = StaticInitializer_51_UniformGridLayoutItemsStretch;
+                userType.StaticInitializer = StaticInitializer_52_UniformGridLayoutItemsStretch;
                 userType.AddEnumValue("None", global::Microsoft.UI.Xaml.Controls.UniformGridLayoutItemsStretch.None);
                 userType.AddEnumValue("Fill", global::Microsoft.UI.Xaml.Controls.UniformGridLayoutItemsStretch.Fill);
                 userType.AddEnumValue("Uniform", global::Microsoft.UI.Xaml.Controls.UniformGridLayoutItemsStretch.Uniform);
                 xamlType = userType;
                 break;
 
-            case 52:   //  Microsoft.UI.Xaml.Controls.IndexBasedLayoutOrientation
+            case 53:   //  Microsoft.UI.Xaml.Controls.IndexBasedLayoutOrientation
                 userType = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.StaticInitializer = StaticInitializer_52_IndexBasedLayoutOrientation;
+                userType.StaticInitializer = StaticInitializer_53_IndexBasedLayoutOrientation;
                 userType.AddEnumValue("None", global::Microsoft.UI.Xaml.Controls.IndexBasedLayoutOrientation.None);
                 userType.AddEnumValue("TopToBottom", global::Microsoft.UI.Xaml.Controls.IndexBasedLayoutOrientation.TopToBottom);
                 userType.AddEnumValue("LeftToRight", global::Microsoft.UI.Xaml.Controls.IndexBasedLayoutOrientation.LeftToRight);
                 xamlType = userType;
                 break;
 
-            case 53:   //  practice2_OPAM_KN24_Daniel_Batko.Pages.AllNotes
+            case 54:   //  practice2_OPAM_KN24_Daniel_Batko.Pages.AllNotes
                 userType = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_53_AllNotes;
-                userType.StaticInitializer = StaticInitializer_53_AllNotes;
+                userType.Activator = Activate_54_AllNotes;
+                userType.StaticInitializer = StaticInitializer_54_AllNotes;
+                userType.AddMemberName("SearchText");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 54:   //  practice2_OPAM_KN24_Daniel_Batko.Pages.Categories
+            case 55:   //  practice2_OPAM_KN24_Daniel_Batko.Pages.Categories
                 userType = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_54_Categories;
-                userType.StaticInitializer = StaticInitializer_54_Categories;
+                userType.Activator = Activate_55_Categories;
+                userType.StaticInitializer = StaticInitializer_55_Categories;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 55:   //  practice2_OPAM_KN24_Daniel_Batko.Pages.Favorites
+            case 56:   //  practice2_OPAM_KN24_Daniel_Batko.Pages.Favorites
                 userType = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_55_Favorites;
-                userType.StaticInitializer = StaticInitializer_55_Favorites;
+                userType.Activator = Activate_56_Favorites;
+                userType.StaticInitializer = StaticInitializer_56_Favorites;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 56:   //  practice2_OPAM_KN24_Daniel_Batko.Pages.Reminders
+            case 57:   //  practice2_OPAM_KN24_Daniel_Batko.Pages.Reminders
                 userType = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_56_Reminders;
-                userType.StaticInitializer = StaticInitializer_56_Reminders;
+                userType.Activator = Activate_57_Reminders;
+                userType.StaticInitializer = StaticInitializer_57_Reminders;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 57:   //  practice2_OPAM_KN24_Daniel_Batko.Pages.Settings
+            case 58:   //  practice2_OPAM_KN24_Daniel_Batko.Pages.Settings
                 userType = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_57_Settings;
-                userType.StaticInitializer = StaticInitializer_57_Settings;
+                userType.Activator = Activate_58_Settings;
+                userType.StaticInitializer = StaticInitializer_58_Settings;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 58:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
+            case 59:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
                 userType = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_58_TreeViewNode;
-                userType.StaticInitializer = StaticInitializer_58_TreeViewNode;
+                userType.Activator = Activate_59_TreeViewNode;
+                userType.StaticInitializer = StaticInitializer_59_TreeViewNode;
                 userType.AddMemberName("Children");
                 userType.AddMemberName("Content");
                 userType.AddMemberName("Depth");
@@ -935,10 +950,10 @@ namespace practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_Xaml
                 xamlType = userType;
                 break;
 
-            case 59:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
+            case 60:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
                 userType = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.StaticInitializer = StaticInitializer_59_IList;
-                userType.CollectionAdd = VectorAdd_59_IList;
+                userType.StaticInitializer = StaticInitializer_60_IList;
+                userType.CollectionAdd = VectorAdd_60_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
@@ -1446,267 +1461,282 @@ namespace practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_Xaml
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItemBase)instance;
             that.IsSelected = (global::System.Boolean)Value;
         }
-        private object get_48_ItemsView_ItemsSource(object instance)
+        private object get_48_AddNote_ViewModel(object instance)
+        {
+            var that = (global::practice2_OPAM_KN24_Daniel_Batko.Pages.AddNote)instance;
+            return that.ViewModel;
+        }
+        private object get_49_ItemsView_ItemsSource(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemsView)instance;
             return that.ItemsSource;
         }
-        private void set_48_ItemsView_ItemsSource(object instance, object Value)
+        private void set_49_ItemsView_ItemsSource(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemsView)instance;
             that.ItemsSource = (global::System.Object)Value;
         }
-        private object get_49_ItemsView_ItemTemplate(object instance)
+        private object get_50_ItemsView_ItemTemplate(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemsView)instance;
             return that.ItemTemplate;
         }
-        private void set_49_ItemsView_ItemTemplate(object instance, object Value)
+        private void set_50_ItemsView_ItemTemplate(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemsView)instance;
             that.ItemTemplate = (global::Microsoft.UI.Xaml.IElementFactory)Value;
         }
-        private object get_50_ItemsView_Layout(object instance)
+        private object get_51_ItemsView_Layout(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemsView)instance;
             return that.Layout;
         }
-        private void set_50_ItemsView_Layout(object instance, object Value)
+        private void set_51_ItemsView_Layout(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemsView)instance;
             that.Layout = (global::Microsoft.UI.Xaml.Controls.Layout)Value;
         }
-        private object get_51_ItemsView_CurrentItemIndex(object instance)
+        private object get_52_ItemsView_CurrentItemIndex(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemsView)instance;
             return that.CurrentItemIndex;
         }
-        private object get_52_ItemsView_IsItemInvokedEnabled(object instance)
+        private object get_53_ItemsView_IsItemInvokedEnabled(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemsView)instance;
             return that.IsItemInvokedEnabled;
         }
-        private void set_52_ItemsView_IsItemInvokedEnabled(object instance, object Value)
+        private void set_53_ItemsView_IsItemInvokedEnabled(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemsView)instance;
             that.IsItemInvokedEnabled = (global::System.Boolean)Value;
         }
-        private object get_53_ItemsView_ItemTransitionProvider(object instance)
+        private object get_54_ItemsView_ItemTransitionProvider(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemsView)instance;
             return that.ItemTransitionProvider;
         }
-        private void set_53_ItemsView_ItemTransitionProvider(object instance, object Value)
+        private void set_54_ItemsView_ItemTransitionProvider(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemsView)instance;
             that.ItemTransitionProvider = (global::Microsoft.UI.Xaml.Controls.ItemCollectionTransitionProvider)Value;
         }
-        private object get_54_ItemsView_ScrollView(object instance)
+        private object get_55_ItemsView_ScrollView(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemsView)instance;
             return that.ScrollView;
         }
-        private object get_55_ScrollView_Content(object instance)
+        private object get_56_ScrollView_Content(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
             return that.Content;
         }
-        private void set_55_ScrollView_Content(object instance, object Value)
+        private void set_56_ScrollView_Content(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
             that.Content = (global::Microsoft.UI.Xaml.UIElement)Value;
         }
-        private object get_56_ItemsView_SelectedItem(object instance)
+        private object get_57_ItemsView_SelectedItem(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemsView)instance;
             return that.SelectedItem;
         }
-        private object get_57_ItemsView_SelectedItems(object instance)
+        private object get_58_ItemsView_SelectedItems(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemsView)instance;
             return that.SelectedItems;
         }
-        private object get_58_ItemsView_SelectionMode(object instance)
+        private object get_59_ItemsView_SelectionMode(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemsView)instance;
             return that.SelectionMode;
         }
-        private void set_58_ItemsView_SelectionMode(object instance, object Value)
+        private void set_59_ItemsView_SelectionMode(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemsView)instance;
             that.SelectionMode = (global::Microsoft.UI.Xaml.Controls.ItemsViewSelectionMode)Value;
         }
-        private object get_59_ItemsView_VerticalScrollController(object instance)
+        private object get_60_ItemsView_VerticalScrollController(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemsView)instance;
             return that.VerticalScrollController;
         }
-        private void set_59_ItemsView_VerticalScrollController(object instance, object Value)
+        private void set_60_ItemsView_VerticalScrollController(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemsView)instance;
             that.VerticalScrollController = (global::Microsoft.UI.Xaml.Controls.Primitives.IScrollController)Value;
         }
-        private object get_60_ItemContainer_Child(object instance)
+        private object get_61_ItemContainer_Child(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemContainer)instance;
             return that.Child;
         }
-        private void set_60_ItemContainer_Child(object instance, object Value)
+        private void set_61_ItemContainer_Child(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemContainer)instance;
             that.Child = (global::Microsoft.UI.Xaml.UIElement)Value;
         }
-        private object get_61_ItemContainer_IsSelected(object instance)
+        private object get_62_ItemContainer_IsSelected(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemContainer)instance;
             return that.IsSelected;
         }
-        private void set_61_ItemContainer_IsSelected(object instance, object Value)
+        private void set_62_ItemContainer_IsSelected(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemContainer)instance;
             that.IsSelected = (global::System.Boolean)Value;
         }
-        private object get_62_NotesCard_Notes(object instance)
+        private object get_63_NotesCard_Notes(object instance)
         {
             var that = (global::practice2_OPAM_KN24_Daniel_Batko.UserControls.NotesCard)instance;
             return that.Notes;
         }
-        private void set_62_NotesCard_Notes(object instance, object Value)
+        private void set_63_NotesCard_Notes(object instance, object Value)
         {
             var that = (global::practice2_OPAM_KN24_Daniel_Batko.UserControls.NotesCard)instance;
             that.Notes = (global::practice2_OPAM_KN24_Daniel_Batko.Entities.Notes)Value;
         }
-        private object get_63_UniformGridLayout_MaximumRowsOrColumns(object instance)
+        private object get_64_UniformGridLayout_MaximumRowsOrColumns(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.UniformGridLayout)instance;
             return that.MaximumRowsOrColumns;
         }
-        private void set_63_UniformGridLayout_MaximumRowsOrColumns(object instance, object Value)
+        private void set_64_UniformGridLayout_MaximumRowsOrColumns(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.UniformGridLayout)instance;
             that.MaximumRowsOrColumns = (global::System.Int32)Value;
         }
-        private object get_64_UniformGridLayout_MinColumnSpacing(object instance)
+        private object get_65_UniformGridLayout_MinColumnSpacing(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.UniformGridLayout)instance;
             return that.MinColumnSpacing;
         }
-        private void set_64_UniformGridLayout_MinColumnSpacing(object instance, object Value)
+        private void set_65_UniformGridLayout_MinColumnSpacing(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.UniformGridLayout)instance;
             that.MinColumnSpacing = (global::System.Double)Value;
         }
-        private object get_65_UniformGridLayout_MinItemWidth(object instance)
+        private object get_66_UniformGridLayout_MinItemWidth(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.UniformGridLayout)instance;
             return that.MinItemWidth;
         }
-        private void set_65_UniformGridLayout_MinItemWidth(object instance, object Value)
+        private void set_66_UniformGridLayout_MinItemWidth(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.UniformGridLayout)instance;
             that.MinItemWidth = (global::System.Double)Value;
         }
-        private object get_66_UniformGridLayout_MinRowSpacing(object instance)
+        private object get_67_UniformGridLayout_MinRowSpacing(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.UniformGridLayout)instance;
             return that.MinRowSpacing;
         }
-        private void set_66_UniformGridLayout_MinRowSpacing(object instance, object Value)
+        private void set_67_UniformGridLayout_MinRowSpacing(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.UniformGridLayout)instance;
             that.MinRowSpacing = (global::System.Double)Value;
         }
-        private object get_67_UniformGridLayout_Orientation(object instance)
+        private object get_68_UniformGridLayout_Orientation(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.UniformGridLayout)instance;
             return that.Orientation;
         }
-        private void set_67_UniformGridLayout_Orientation(object instance, object Value)
+        private void set_68_UniformGridLayout_Orientation(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.UniformGridLayout)instance;
             that.Orientation = (global::Microsoft.UI.Xaml.Controls.Orientation)Value;
         }
-        private object get_68_UniformGridLayout_ItemsJustification(object instance)
+        private object get_69_UniformGridLayout_ItemsJustification(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.UniformGridLayout)instance;
             return that.ItemsJustification;
         }
-        private void set_68_UniformGridLayout_ItemsJustification(object instance, object Value)
+        private void set_69_UniformGridLayout_ItemsJustification(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.UniformGridLayout)instance;
             that.ItemsJustification = (global::Microsoft.UI.Xaml.Controls.UniformGridLayoutItemsJustification)Value;
         }
-        private object get_69_UniformGridLayout_ItemsStretch(object instance)
+        private object get_70_UniformGridLayout_ItemsStretch(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.UniformGridLayout)instance;
             return that.ItemsStretch;
         }
-        private void set_69_UniformGridLayout_ItemsStretch(object instance, object Value)
+        private void set_70_UniformGridLayout_ItemsStretch(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.UniformGridLayout)instance;
             that.ItemsStretch = (global::Microsoft.UI.Xaml.Controls.UniformGridLayoutItemsStretch)Value;
         }
-        private object get_70_UniformGridLayout_MinItemHeight(object instance)
+        private object get_71_UniformGridLayout_MinItemHeight(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.UniformGridLayout)instance;
             return that.MinItemHeight;
         }
-        private void set_70_UniformGridLayout_MinItemHeight(object instance, object Value)
+        private void set_71_UniformGridLayout_MinItemHeight(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.UniformGridLayout)instance;
             that.MinItemHeight = (global::System.Double)Value;
         }
-        private object get_71_Layout_IndexBasedLayoutOrientation(object instance)
+        private object get_72_Layout_IndexBasedLayoutOrientation(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.Layout)instance;
             return that.IndexBasedLayoutOrientation;
         }
-        private object get_72_TreeViewNode_Children(object instance)
+        private object get_73_AllNotes_SearchText(object instance)
+        {
+            var that = (global::practice2_OPAM_KN24_Daniel_Batko.Pages.AllNotes)instance;
+            return that.SearchText;
+        }
+        private void set_73_AllNotes_SearchText(object instance, object Value)
+        {
+            var that = (global::practice2_OPAM_KN24_Daniel_Batko.Pages.AllNotes)instance;
+            that.SearchText = (global::System.String)Value;
+        }
+        private object get_74_TreeViewNode_Children(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Children;
         }
-        private object get_73_TreeViewNode_Content(object instance)
+        private object get_75_TreeViewNode_Content(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Content;
         }
-        private void set_73_TreeViewNode_Content(object instance, object Value)
+        private void set_75_TreeViewNode_Content(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.Content = (global::System.Object)Value;
         }
-        private object get_74_TreeViewNode_Depth(object instance)
+        private object get_76_TreeViewNode_Depth(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Depth;
         }
-        private object get_75_TreeViewNode_HasChildren(object instance)
+        private object get_77_TreeViewNode_HasChildren(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.HasChildren;
         }
-        private object get_76_TreeViewNode_HasUnrealizedChildren(object instance)
+        private object get_78_TreeViewNode_HasUnrealizedChildren(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.HasUnrealizedChildren;
         }
-        private void set_76_TreeViewNode_HasUnrealizedChildren(object instance, object Value)
+        private void set_78_TreeViewNode_HasUnrealizedChildren(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.HasUnrealizedChildren = (global::System.Boolean)Value;
         }
-        private object get_77_TreeViewNode_IsExpanded(object instance)
+        private object get_79_TreeViewNode_IsExpanded(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.IsExpanded;
         }
-        private void set_77_TreeViewNode_IsExpanded(object instance, object Value)
+        private void set_79_TreeViewNode_IsExpanded(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.IsExpanded = (global::System.Boolean)Value;
         }
-        private object get_78_TreeViewNode_Parent(object instance)
+        private object get_80_TreeViewNode_Parent(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Parent;
@@ -2055,216 +2085,228 @@ namespace practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_Xaml
                 xamlMember.Getter = get_47_NavigationViewItemBase_IsSelected;
                 xamlMember.Setter = set_47_NavigationViewItemBase_IsSelected;
                 break;
+            case "practice2_OPAM_KN24_Daniel_Batko.Pages.AddNote.ViewModel":
+                userType = (global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType)GetXamlTypeByName("practice2_OPAM_KN24_Daniel_Batko.Pages.AddNote");
+                xamlMember = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlMember(this, "ViewModel", "practice2_OPAM_KN24_Daniel_Batko.ViewModel.AddNotesViewModel");
+                xamlMember.Getter = get_48_AddNote_ViewModel;
+                xamlMember.SetIsReadOnly();
+                break;
             case "Microsoft.UI.Xaml.Controls.ItemsView.ItemsSource":
                 userType = (global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ItemsView");
                 xamlMember = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlMember(this, "ItemsSource", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_48_ItemsView_ItemsSource;
-                xamlMember.Setter = set_48_ItemsView_ItemsSource;
+                xamlMember.Getter = get_49_ItemsView_ItemsSource;
+                xamlMember.Setter = set_49_ItemsView_ItemsSource;
                 break;
             case "Microsoft.UI.Xaml.Controls.ItemsView.ItemTemplate":
                 userType = (global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ItemsView");
                 xamlMember = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlMember(this, "ItemTemplate", "Microsoft.UI.Xaml.IElementFactory");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_49_ItemsView_ItemTemplate;
-                xamlMember.Setter = set_49_ItemsView_ItemTemplate;
+                xamlMember.Getter = get_50_ItemsView_ItemTemplate;
+                xamlMember.Setter = set_50_ItemsView_ItemTemplate;
                 break;
             case "Microsoft.UI.Xaml.Controls.ItemsView.Layout":
                 userType = (global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ItemsView");
                 xamlMember = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlMember(this, "Layout", "Microsoft.UI.Xaml.Controls.Layout");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_50_ItemsView_Layout;
-                xamlMember.Setter = set_50_ItemsView_Layout;
+                xamlMember.Getter = get_51_ItemsView_Layout;
+                xamlMember.Setter = set_51_ItemsView_Layout;
                 break;
             case "Microsoft.UI.Xaml.Controls.ItemsView.CurrentItemIndex":
                 userType = (global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ItemsView");
                 xamlMember = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlMember(this, "CurrentItemIndex", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_51_ItemsView_CurrentItemIndex;
+                xamlMember.Getter = get_52_ItemsView_CurrentItemIndex;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.ItemsView.IsItemInvokedEnabled":
                 userType = (global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ItemsView");
                 xamlMember = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlMember(this, "IsItemInvokedEnabled", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_52_ItemsView_IsItemInvokedEnabled;
-                xamlMember.Setter = set_52_ItemsView_IsItemInvokedEnabled;
+                xamlMember.Getter = get_53_ItemsView_IsItemInvokedEnabled;
+                xamlMember.Setter = set_53_ItemsView_IsItemInvokedEnabled;
                 break;
             case "Microsoft.UI.Xaml.Controls.ItemsView.ItemTransitionProvider":
                 userType = (global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ItemsView");
                 xamlMember = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlMember(this, "ItemTransitionProvider", "Microsoft.UI.Xaml.Controls.ItemCollectionTransitionProvider");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_53_ItemsView_ItemTransitionProvider;
-                xamlMember.Setter = set_53_ItemsView_ItemTransitionProvider;
+                xamlMember.Getter = get_54_ItemsView_ItemTransitionProvider;
+                xamlMember.Setter = set_54_ItemsView_ItemTransitionProvider;
                 break;
             case "Microsoft.UI.Xaml.Controls.ItemsView.ScrollView":
                 userType = (global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ItemsView");
                 xamlMember = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlMember(this, "ScrollView", "Microsoft.UI.Xaml.Controls.ScrollView");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_54_ItemsView_ScrollView;
+                xamlMember.Getter = get_55_ItemsView_ScrollView;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.ScrollView.Content":
                 userType = (global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ScrollView");
                 xamlMember = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlMember(this, "Content", "Microsoft.UI.Xaml.UIElement");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_55_ScrollView_Content;
-                xamlMember.Setter = set_55_ScrollView_Content;
+                xamlMember.Getter = get_56_ScrollView_Content;
+                xamlMember.Setter = set_56_ScrollView_Content;
                 break;
             case "Microsoft.UI.Xaml.Controls.ItemsView.SelectedItem":
                 userType = (global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ItemsView");
                 xamlMember = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlMember(this, "SelectedItem", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_56_ItemsView_SelectedItem;
+                xamlMember.Getter = get_57_ItemsView_SelectedItem;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.ItemsView.SelectedItems":
                 userType = (global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ItemsView");
                 xamlMember = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlMember(this, "SelectedItems", "System.Collections.Generic.IReadOnlyList`1<Object>");
-                xamlMember.Getter = get_57_ItemsView_SelectedItems;
+                xamlMember.Getter = get_58_ItemsView_SelectedItems;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.ItemsView.SelectionMode":
                 userType = (global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ItemsView");
                 xamlMember = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlMember(this, "SelectionMode", "Microsoft.UI.Xaml.Controls.ItemsViewSelectionMode");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_58_ItemsView_SelectionMode;
-                xamlMember.Setter = set_58_ItemsView_SelectionMode;
+                xamlMember.Getter = get_59_ItemsView_SelectionMode;
+                xamlMember.Setter = set_59_ItemsView_SelectionMode;
                 break;
             case "Microsoft.UI.Xaml.Controls.ItemsView.VerticalScrollController":
                 userType = (global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ItemsView");
                 xamlMember = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlMember(this, "VerticalScrollController", "Microsoft.UI.Xaml.Controls.Primitives.IScrollController");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_59_ItemsView_VerticalScrollController;
-                xamlMember.Setter = set_59_ItemsView_VerticalScrollController;
+                xamlMember.Getter = get_60_ItemsView_VerticalScrollController;
+                xamlMember.Setter = set_60_ItemsView_VerticalScrollController;
                 break;
             case "Microsoft.UI.Xaml.Controls.ItemContainer.Child":
                 userType = (global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ItemContainer");
                 xamlMember = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlMember(this, "Child", "Microsoft.UI.Xaml.UIElement");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_60_ItemContainer_Child;
-                xamlMember.Setter = set_60_ItemContainer_Child;
+                xamlMember.Getter = get_61_ItemContainer_Child;
+                xamlMember.Setter = set_61_ItemContainer_Child;
                 break;
             case "Microsoft.UI.Xaml.Controls.ItemContainer.IsSelected":
                 userType = (global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ItemContainer");
                 xamlMember = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlMember(this, "IsSelected", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_61_ItemContainer_IsSelected;
-                xamlMember.Setter = set_61_ItemContainer_IsSelected;
+                xamlMember.Getter = get_62_ItemContainer_IsSelected;
+                xamlMember.Setter = set_62_ItemContainer_IsSelected;
                 break;
             case "practice2_OPAM_KN24_Daniel_Batko.UserControls.NotesCard.Notes":
                 userType = (global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType)GetXamlTypeByName("practice2_OPAM_KN24_Daniel_Batko.UserControls.NotesCard");
                 xamlMember = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlMember(this, "Notes", "practice2_OPAM_KN24_Daniel_Batko.Entities.Notes");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_62_NotesCard_Notes;
-                xamlMember.Setter = set_62_NotesCard_Notes;
+                xamlMember.Getter = get_63_NotesCard_Notes;
+                xamlMember.Setter = set_63_NotesCard_Notes;
                 break;
             case "Microsoft.UI.Xaml.Controls.UniformGridLayout.MaximumRowsOrColumns":
                 userType = (global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.UniformGridLayout");
                 xamlMember = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlMember(this, "MaximumRowsOrColumns", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_63_UniformGridLayout_MaximumRowsOrColumns;
-                xamlMember.Setter = set_63_UniformGridLayout_MaximumRowsOrColumns;
+                xamlMember.Getter = get_64_UniformGridLayout_MaximumRowsOrColumns;
+                xamlMember.Setter = set_64_UniformGridLayout_MaximumRowsOrColumns;
                 break;
             case "Microsoft.UI.Xaml.Controls.UniformGridLayout.MinColumnSpacing":
                 userType = (global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.UniformGridLayout");
                 xamlMember = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlMember(this, "MinColumnSpacing", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_64_UniformGridLayout_MinColumnSpacing;
-                xamlMember.Setter = set_64_UniformGridLayout_MinColumnSpacing;
+                xamlMember.Getter = get_65_UniformGridLayout_MinColumnSpacing;
+                xamlMember.Setter = set_65_UniformGridLayout_MinColumnSpacing;
                 break;
             case "Microsoft.UI.Xaml.Controls.UniformGridLayout.MinItemWidth":
                 userType = (global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.UniformGridLayout");
                 xamlMember = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlMember(this, "MinItemWidth", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_65_UniformGridLayout_MinItemWidth;
-                xamlMember.Setter = set_65_UniformGridLayout_MinItemWidth;
+                xamlMember.Getter = get_66_UniformGridLayout_MinItemWidth;
+                xamlMember.Setter = set_66_UniformGridLayout_MinItemWidth;
                 break;
             case "Microsoft.UI.Xaml.Controls.UniformGridLayout.MinRowSpacing":
                 userType = (global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.UniformGridLayout");
                 xamlMember = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlMember(this, "MinRowSpacing", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_66_UniformGridLayout_MinRowSpacing;
-                xamlMember.Setter = set_66_UniformGridLayout_MinRowSpacing;
+                xamlMember.Getter = get_67_UniformGridLayout_MinRowSpacing;
+                xamlMember.Setter = set_67_UniformGridLayout_MinRowSpacing;
                 break;
             case "Microsoft.UI.Xaml.Controls.UniformGridLayout.Orientation":
                 userType = (global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.UniformGridLayout");
                 xamlMember = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlMember(this, "Orientation", "Microsoft.UI.Xaml.Controls.Orientation");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_67_UniformGridLayout_Orientation;
-                xamlMember.Setter = set_67_UniformGridLayout_Orientation;
+                xamlMember.Getter = get_68_UniformGridLayout_Orientation;
+                xamlMember.Setter = set_68_UniformGridLayout_Orientation;
                 break;
             case "Microsoft.UI.Xaml.Controls.UniformGridLayout.ItemsJustification":
                 userType = (global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.UniformGridLayout");
                 xamlMember = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlMember(this, "ItemsJustification", "Microsoft.UI.Xaml.Controls.UniformGridLayoutItemsJustification");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_68_UniformGridLayout_ItemsJustification;
-                xamlMember.Setter = set_68_UniformGridLayout_ItemsJustification;
+                xamlMember.Getter = get_69_UniformGridLayout_ItemsJustification;
+                xamlMember.Setter = set_69_UniformGridLayout_ItemsJustification;
                 break;
             case "Microsoft.UI.Xaml.Controls.UniformGridLayout.ItemsStretch":
                 userType = (global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.UniformGridLayout");
                 xamlMember = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlMember(this, "ItemsStretch", "Microsoft.UI.Xaml.Controls.UniformGridLayoutItemsStretch");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_69_UniformGridLayout_ItemsStretch;
-                xamlMember.Setter = set_69_UniformGridLayout_ItemsStretch;
+                xamlMember.Getter = get_70_UniformGridLayout_ItemsStretch;
+                xamlMember.Setter = set_70_UniformGridLayout_ItemsStretch;
                 break;
             case "Microsoft.UI.Xaml.Controls.UniformGridLayout.MinItemHeight":
                 userType = (global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.UniformGridLayout");
                 xamlMember = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlMember(this, "MinItemHeight", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_70_UniformGridLayout_MinItemHeight;
-                xamlMember.Setter = set_70_UniformGridLayout_MinItemHeight;
+                xamlMember.Getter = get_71_UniformGridLayout_MinItemHeight;
+                xamlMember.Setter = set_71_UniformGridLayout_MinItemHeight;
                 break;
             case "Microsoft.UI.Xaml.Controls.Layout.IndexBasedLayoutOrientation":
                 userType = (global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Layout");
                 xamlMember = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlMember(this, "IndexBasedLayoutOrientation", "Microsoft.UI.Xaml.Controls.IndexBasedLayoutOrientation");
-                xamlMember.Getter = get_71_Layout_IndexBasedLayoutOrientation;
+                xamlMember.Getter = get_72_Layout_IndexBasedLayoutOrientation;
                 xamlMember.SetIsReadOnly();
+                break;
+            case "practice2_OPAM_KN24_Daniel_Batko.Pages.AllNotes.SearchText":
+                userType = (global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType)GetXamlTypeByName("practice2_OPAM_KN24_Daniel_Batko.Pages.AllNotes");
+                xamlMember = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlMember(this, "SearchText", "String");
+                xamlMember.Getter = get_73_AllNotes_SearchText;
+                xamlMember.Setter = set_73_AllNotes_SearchText;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Children":
                 userType = (global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlMember(this, "Children", "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>");
-                xamlMember.Getter = get_72_TreeViewNode_Children;
+                xamlMember.Getter = get_74_TreeViewNode_Children;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Content":
                 userType = (global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlMember(this, "Content", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_73_TreeViewNode_Content;
-                xamlMember.Setter = set_73_TreeViewNode_Content;
+                xamlMember.Getter = get_75_TreeViewNode_Content;
+                xamlMember.Setter = set_75_TreeViewNode_Content;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Depth":
                 userType = (global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlMember(this, "Depth", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_74_TreeViewNode_Depth;
+                xamlMember.Getter = get_76_TreeViewNode_Depth;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasChildren":
                 userType = (global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlMember(this, "HasChildren", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_75_TreeViewNode_HasChildren;
+                xamlMember.Getter = get_77_TreeViewNode_HasChildren;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasUnrealizedChildren":
                 userType = (global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlMember(this, "HasUnrealizedChildren", "Boolean");
-                xamlMember.Getter = get_76_TreeViewNode_HasUnrealizedChildren;
-                xamlMember.Setter = set_76_TreeViewNode_HasUnrealizedChildren;
+                xamlMember.Getter = get_78_TreeViewNode_HasUnrealizedChildren;
+                xamlMember.Setter = set_78_TreeViewNode_HasUnrealizedChildren;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.IsExpanded":
                 userType = (global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_77_TreeViewNode_IsExpanded;
-                xamlMember.Setter = set_77_TreeViewNode_IsExpanded;
+                xamlMember.Getter = get_79_TreeViewNode_IsExpanded;
+                xamlMember.Setter = set_79_TreeViewNode_IsExpanded;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Parent":
                 userType = (global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::practice2_OPAM_KN24_Daniel_Batko.practice2_OPAM_KN24_Daniel_Batko_XamlTypeInfo.XamlMember(this, "Parent", "Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember.Getter = get_78_TreeViewNode_Parent;
+                xamlMember.Getter = get_80_TreeViewNode_Parent;
                 xamlMember.SetIsReadOnly();
                 break;
             }

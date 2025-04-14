@@ -7,26 +7,42 @@
     xmlns:entity="using:practice2_OPAM_KN24_Daniel_Batko.Entities"
     xmlns:local="using:practice2_OPAM_KN24_Daniel_Batko.Pages">
 
-    <Grid Style="{StaticResource PageGridStyle}">
-        <ItemsView x:ConnectionId='2' x:Name="NotesItemView"                                          >
+    <Grid RowDefinitions="Auto, *" Style="{StaticResource PageGridStyle}">
+        <RelativePanel Grid.Row="0" HorizontalAlignment="Stretch" Margin="12">
+            <TextBox x:ConnectionId='6'
+                x:Name="SearhTextBox"
+                RelativePanel.AlignLeftWithPanel="True"
+                RelativePanel.LeftOf="SearchButton"
+                                                        />
+            <Button x:ConnectionId='7'
+                x:Name="SearchButton"
+                Margin="12,0,0,0"
+                                          
+                RelativePanel.AlignRightWithPanel="True">
+                <FontIcon Glyph="" />
+            </Button>
+        </RelativePanel>
+        <ItemsView x:ConnectionId='2'
+            x:Name="NotesItemView"
+            Grid.Row="1"
+            Margin="12"
+                                                     >
             <ItemsView.ItemTemplate>
                 <DataTemplate                          >
                     <ItemContainer x:ConnectionId='4'>
-                        <controls:NotesCard x:ConnectionId='5'                               />
+                        <controls:NotesCard x:ConnectionId='5'                             />
                     </ItemContainer>
                 </DataTemplate>
             </ItemsView.ItemTemplate>
-
             <ItemsView.Layout>
                 <UniformGridLayout
                     MaximumRowsOrColumns="3"          
                     MinColumnSpacing="12"
-                    MinItemWidth="200"
+                    MinItemWidth="0"
                     MinRowSpacing="12"
                     Orientation="Horizontal" />
             </ItemsView.Layout>
         </ItemsView>
-        
     </Grid>
 </Page>
 

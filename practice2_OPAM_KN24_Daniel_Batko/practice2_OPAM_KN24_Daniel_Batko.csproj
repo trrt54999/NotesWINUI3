@@ -13,6 +13,16 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Remove="NewFolder1\**" />
+    <Compile Remove="UserControl\**" />
+    <EmbeddedResource Remove="NewFolder1\**" />
+    <EmbeddedResource Remove="UserControl\**" />
+    <None Remove="NewFolder1\**" />
+    <None Remove="UserControl\**" />
+    <Page Remove="NewFolder1\**" />
+    <Page Remove="UserControl\**" />
+  </ItemGroup>
+  <ItemGroup>
     <Content Remove="Assets\LargeTile.scale-100.png" />
     <Content Remove="Assets\LargeTile.scale-125.png" />
     <Content Remove="Assets\LargeTile.scale-150.png" />
@@ -60,7 +70,6 @@
     <Content Remove="Assets\Wide310x150Logo.scale-400.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Remove="Pages\AddNote.xaml" />
     <None Remove="Pages\AllNotes.xaml" />
     <None Remove="Pages\Categories.xaml" />
     <None Remove="Pages\Favorites.xaml" />
@@ -105,11 +114,6 @@
   </ItemGroup>
   <ItemGroup>
     <Page Update="Styles\TextBlockStyles.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-  </ItemGroup>
-  <ItemGroup>
-    <Page Update="Pages\AddNote.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
@@ -175,4 +179,15 @@
     <PublishTrimmed Condition="'$(Configuration)' == 'Debug'">False</PublishTrimmed>
     <PublishTrimmed Condition="'$(Configuration)' != 'Debug'">True</PublishTrimmed>
   </PropertyGroup>
+  <ItemGroup>
+    <PRIResource Remove="UserControl\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Remove="NewFolder1\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Pages\AddNote.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
 </Project>

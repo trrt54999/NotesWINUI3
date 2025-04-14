@@ -20,16 +20,13 @@
     <None Update="Package.appxmanifest">
       <SubType>Designer</SubType>
     </None>
+    <Page Update="Pages\AddNote.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Styles\PageStyles.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="UserControls\NotesCard.xaml">
-      <SubType>Designer</SubType>
-    </Page>
     <Page Update="Styles\TextBlockStyles.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Pages\AddNote.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Styles\ButtonStyles.xaml">

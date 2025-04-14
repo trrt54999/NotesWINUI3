@@ -7,25 +7,41 @@
     xmlns:entity="using:practice2_OPAM_KN24_Daniel_Batko.Entities"
     xmlns:local="using:practice2_OPAM_KN24_Daniel_Batko.Pages">
 
-    <Grid Style="{StaticResource PageGridStyle}">
-        <ItemsView x:Name="NotesItemView" ItemsSource="{x:Bind Notes, Mode=OneWay}">
+    <Grid RowDefinitions="Auto, *" Style="{StaticResource PageGridStyle}">
+        <RelativePanel Grid.Row="0" HorizontalAlignment="Stretch" Margin="12">
+            <TextBox
+                x:Name="SearhTextBox"
+                RelativePanel.AlignLeftWithPanel="True"
+                RelativePanel.LeftOf="SearchButton"
+                Text="{x:Bind SearchText, Mode=TwoWay}" />
+            <Button
+                x:Name="SearchButton"
+                Margin="12,0,0,0"
+                Click="SearchButton_Click"
+                RelativePanel.AlignRightWithPanel="True">
+                <FontIcon Glyph="" />
+            </Button>
+        </RelativePanel>
+        <ItemsView
+            x:Name="NotesItemView"
+            Grid.Row="1"
+            Margin="12"
+            ItemsSource="{x:Bind Notes, Mode=OneWay}">
             <ItemsView.ItemTemplate>
                 <DataTemplate x:DataType="entity:Notes">
                     <ItemContainer>
-                        <controls:NotesCard Notes="{x:Bind Mode = OneWay}"/>
+                        <controls:NotesCard Notes="{x:Bind Mode=OneWay}"/>
                     </ItemContainer>
                 </DataTemplate>
             </ItemsView.ItemTemplate>
-
             <ItemsView.Layout>
                 <UniformGridLayout
                     MaximumRowsOrColumns="3"          
                     MinColumnSpacing="12"
-                    MinItemWidth="200"
+                    MinItemWidth="0"
                     MinRowSpacing="12"
                     Orientation="Horizontal" />
             </ItemsView.Layout>
         </ItemsView>
-        
     </Grid>
 </Page>

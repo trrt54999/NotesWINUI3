@@ -1,20 +1,20 @@
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using practice2_OPAM_KN24_Daniel_Batko.Entities;
+using practice2_OPAM_KN24_Daniel_Batko.ViewModel;
 using System;
 using System.Threading.Tasks;
 using Windows.Storage;
 using Windows.Storage.Pickers;
 using WinRT.Interop;
 
-// To learn more about WinUI, the WinUI project structure,
-// and more about our project templates, see: http://aka.ms/winui-project-info.
-
 namespace practice2_OPAM_KN24_Daniel_Batko.Pages;
 
 public sealed partial class AddNote : Page
 {
     private StorageFile? selectedImageFile;
+    public AddNotesViewModel ViewModel { get; } = new AddNotesViewModel();
+
     public AddNote()
     {
         this.InitializeComponent();
@@ -32,17 +32,17 @@ public sealed partial class AddNote : Page
                  content: ContentTextBox.Text
              );
 
-            newNote.ImagePath = await SaveImageAync() ?? "ms-appx:///Assets/NotesDefaultLogo.jpg";
+            newNote.ImagePath = await SaveImageAync() ?? "ms-appx:///Assets/NotesDefaultLogo.png";
             Frame.Navigate(typeof(AllNotes), newNote);
         }
         catch (ValidationException ex)
         {
             if (ex.Errors.ContainsKey(nameof(Notes.NotesTitle)))
-                ShowError(TitleError, string.Join("\n", ex.Errors[nameof(Notes.NotesTitle)]));
+                ShowError(TitleErrorTextBlock, string.Join("\n", ex.Errors[nameof(Notes.NotesTitle)]));
             if (ex.Errors.ContainsKey("Content"))
-                ShowError(ContentError, string.Join("\n", ex.Errors["Content"]));
+                ShowError(ContentErrorTextBlock, string.Join("\n", ex.Errors["Content"]));
             if (ex.Errors.ContainsKey("Category"))
-                ShowError(CategoryError, string.Join("\n", ex.Errors["Category"]));
+                ShowError(CategoryErrorTextBlock, string.Join("\n", ex.Errors["Category"]));
         }
     }
 
@@ -89,9 +89,9 @@ public sealed partial class AddNote : Page
 
     private void ClearErrors()
     {
-        TitleError.Visibility = Visibility.Collapsed;
-        ContentError.Visibility = Visibility.Collapsed;
-        CategoryError.Visibility = Visibility.Collapsed;
+        TitleErrorTextBlock.Visibility = Visibility.Collapsed;
+        ContentErrorTextBlock.Visibility = Visibility.Collapsed;
+        CategoryErrorTextBlock.Visibility = Visibility.Collapsed;
     }
 
     private void ShowError(TextBlock errorBlock, string message)
@@ -99,4 +99,46 @@ public sealed partial class AddNote : Page
         errorBlock.Text = message;
         errorBlock.Visibility = Visibility.Visible;
     }
+
+    private Visibility OnTitleChanged(string title)
+    {
+        if (string.IsNullOrEmpty(title)) return Visibility.Collapsed;
+
+        Notes notes = new Notes();
+        notes.NotesTitle = title;
+        if (notes.Errors.ContainsKey(nameof(Notes.NotesTitle)))
+        {
+            ShowError(TitleErrorTextBlock, string.Join("\n", notes.Errors[nameof(Notes.NotesTitle)]));
+            return Visibility.Visible;
+        }
+
+        return Visibility.Collapsed;
+    }
+    private Visibility OnCategoryChanged(string category)
+    {
+        if (string.IsNullOrEmpty(category)) return Visibility.Collapsed;
+
+        Notes notes = new Notes();
+        notes.Category = category;
+        if (notes.Errors.ContainsKey(nameof(Notes.Category)))
+        {
+            ShowError(CategoryErrorTextBlock, string.Join("\n", notes.Errors[nameof(Notes.Category)]));
+            return Visibility.Visible;
+        }
+        return Visibility.Collapsed;
+    }
+    private Visibility OnContentChanged(string content)
+    {
+        if (string.IsNullOrEmpty(content)) return Visibility.Collapsed;
+
+        Notes notes = new Notes();
+        notes.Content = content;
+        if (notes.Errors.ContainsKey(nameof(Notes.Content)))
+        {
+            ShowError(ContentErrorTextBlock, string.Join("\n", notes.Errors[nameof(Notes.Content)]));
+            return Visibility.Visible;
+        }
+        return Visibility.Collapsed;
+    }
+
 }
