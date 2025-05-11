@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Page
+    x:Class="practice2_OPAM_KN24_Daniel_Batko.Pages.ProfilePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:practice2_OPAM_KN24_Daniel_Batko.Pages"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Padding="32">
+        <StackPanel Spacing="16">
+            <PersonPicture
+                x:Name="ProfilePicture"
+                Width="120"
+                Height="120" />
+            <StackPanel
+                HorizontalAlignment="Center"
+                Orientation="Horizontal"
+                Spacing="8">
+                <Button
+                    x:Name="ChangeAvatarButton"
+                    Click="ChangeAvatarButton_Click"
+                    Content="Change Avatar" />
+                <Button
+                    x:Name="SaveAvatarButton"
+                    Click="SaveAvatarButton_Click"
+                    Content="Save Photo" />
+                <Button
+                    x:Name="SaveGifButton"
+                    Click="SaveGifButton_Click"
+                    Content="Save GIF" />
+                <Button
+                    x:Name="DeleteAvatarButton"
+                    Click="DeleteAvatarButton_Click"
+                    Content="Delete Avatar" />
+            </StackPanel>
+
+            <TextBlock
+                Margin="0,10,0,10"
+                HorizontalAlignment="Center"
+                Style="{StaticResource TitleTextBlockStyle}"
+                Text="Profile information" />
+
+            <Grid
+                ColumnDefinitions="Auto, *"
+                ColumnSpacing="12"
+                RowDefinitions="Auto, Auto, Auto, Auto, Auto"
+                RowSpacing="12">
+
+                <TextBlock
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    Style="{StaticResource BodyStrongTextBlockStyle}"
+                    Text="Login: " />
+                <TextBlock
+                    x:Name="UsernameTextBlock"
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    Style="{StaticResource BodyTextBlockStyle}" />
+
+                <TextBlock
+                    Grid.Row="1"
+                    Grid.Column="0"
+                    Style="{StaticResource BodyStrongTextBlockStyle}"
+                    Text="Email: " />
+                <TextBlock
+                    x:Name="EmailTextBlock"
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    Style="{StaticResource BodyTextBlockStyle}" />
+
+                <TextBlock
+                    Grid.Row="2"
+                    Grid.Column="0"
+                    Style="{StaticResource BodyStrongTextBlockStyle}"
+                    Text="First name: " />
+                <TextBlock
+                    x:Name="FirstNameTextBlock"
+                    Grid.Row="2"
+                    Grid.Column="1"
+                    Style="{StaticResource BodyTextBlockStyle}" />
+
+                <TextBlock
+                    Grid.Row="3"
+                    Grid.Column="0"
+                    Style="{StaticResource BodyStrongTextBlockStyle}"
+                    Text="Last name: " />
+                <TextBlock
+                    x:Name="LastNameTextBlock"
+                    Grid.Row="3"
+                    Grid.Column="1"
+                    Style="{StaticResource BodyTextBlockStyle}" />
+
+                <TextBlock
+                    Grid.Row="4"
+                    Grid.Column="0"
+                    Style="{StaticResource BodyStrongTextBlockStyle}"
+                    Text="Registered: " />
+                <TextBlock
+                    x:Name="RegistrationDateTextBlock"
+                    Grid.Row="4"
+                    Grid.Column="1"
+                    Style="{StaticResource BodyTextBlockStyle}" />
+            </Grid>
+        </StackPanel>
+    </Grid>
+</Page>

@@ -1,0 +1,84 @@
+<Page
+    x:Class="practice2_OPAM_KN24_Daniel_Batko.Pages.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:practice2_OPAM_KN24_Daniel_Batko.Pages"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <NavigationView
+            x:Name="NavView"
+            AlwaysShowHeader="False"
+            Background="#2a8c8c"
+            IsBackButtonVisible="Collapsed"
+            IsSettingsVisible="True"
+            IsTitleBarAutoPaddingEnabled="False"
+            PaneDisplayMode="Auto"
+            SelectionChanged="NavView_SelectionChanged">
+
+            <NavigationView.Resources>
+                <x:String x:Key="AllNotes">All Notes</x:String>
+                <x:String x:Key="Reminders">Reminders</x:String>
+                <x:String x:Key="Categories">Categories</x:String>
+                <x:String x:Key="Favorites">Favorites</x:String>
+                <x:String x:Key="AddNote">Add Note</x:String>
+            </NavigationView.Resources>
+
+            <NavigationView.MenuItems>
+                <NavigationViewItem
+                    Content="{StaticResource AllNotes}"
+                    Icon="Document"
+                    Tag="AllNotes" />
+                <NavigationViewItem
+                    Content="{StaticResource Reminders}"
+                    Icon="Calendar"
+                    Tag="Reminders" />
+                <NavigationViewItem
+                    Content="{StaticResource Categories}"
+                    Icon="Tag"
+                    Tag="Categories" />
+                <NavigationViewItem
+                    Content="{StaticResource Favorites}"
+                    Icon="Favorite"
+                    Tag="Favorites" />
+                <NavigationViewItem
+                    Content="{StaticResource AddNote}"
+                    Icon="Add"
+                    Tag="AddNote" />
+                <NavigationViewItem
+                    HorizontalContentAlignment="Stretch"
+                    Tag="github"
+                    Tapped="GitHubLogo_Tapped">
+                    <StackPanel HorizontalAlignment="Stretch" Orientation="Horizontal">
+                        <Image
+                            Width="24"
+                            Height="24"
+                            Margin="0,0,8,0"
+                            HorizontalAlignment="Left"
+                            Source="ms-appx:///Assets/github-logo.png" />
+                        <TextBlock
+                            Margin="0,0,12,0"
+                            HorizontalAlignment="Right"
+                            VerticalAlignment="Center"
+                            Text="GitHub" />
+                    </StackPanel>
+                </NavigationViewItem>
+            </NavigationView.MenuItems>
+
+            <NavigationView.FooterMenuItems>
+                <NavigationViewItem
+                    x:Name="ProfileItem"
+                    Content="Profile"
+                    Icon="Contact"
+                    Tag="profile" />
+                <NavigationViewItem
+                    Content="Exit"
+                    Icon="LeaveChat"
+                    Tag="logout"
+                    Tapped="LogoutItem_Tapped" />
+
+            </NavigationView.FooterMenuItems>
+            <Frame x:Name="ContentFrame" Background="White" />
+        </NavigationView>
+    </Grid>
+</Page>

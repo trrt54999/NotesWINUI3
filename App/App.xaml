@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Application
+    x:Class="practice2_OPAM_KN24_Daniel_Batko.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:converters="using:App.Converters"
+    xmlns:local="using:App.Converters">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls" />
+                <ResourceDictionary Source="Styles/ButtonStyles.xaml" />
+                <ResourceDictionary Source="Styles/PageStyles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <ResourceDictionary.ThemeDictionaries>
+                <ResourceDictionary x:Key="Light" Source="Themes/LightDefault.xaml" />
+                <ResourceDictionary x:Key="Dark" Source="Themes/DarkDefault.xaml" />
+            </ResourceDictionary.ThemeDictionaries>
+
+            <converters:StringToImageSourceConverter x:Key="StringToImageSourceConverter" />
+            <converters:NullToVisibilityConverter x:Key="NullToVisibilityConverter" />
+            <converters:DateTimeToStringConverter x:Key="DateTimeToStringConverter" />
+            <converters:BooleanToStarColorConverter x:Key="BooleanToStarColorConverter" />
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

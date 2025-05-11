@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "practice2_OPAM_KN24_Daniel_Batko (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "practice2_OPAM_KN24_Daniel_Batko (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+<Page
+    x:Class="practice2_OPAM_KN24_Daniel_Batko.Pages.AllNotes"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="using:practice2_OPAM_KN24_Daniel_Batko.UserControls"
+    xmlns:entity="using:practice2_OPAM_KN24_Daniel_Batko.Entities"
+    xmlns:local="using:practice2_OPAM_KN24_Daniel_Batko.Pages"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid RowDefinitions="Auto, *" Style="{StaticResource PageGridStyle}">
+        <InfoBar
+            Title="Information"
+            Grid.Row="0"
+            Margin="12,50,0,0"
+            IsOpen="True"
+            Message="Your successfully login!"
+            Severity="Success" />
+        <RelativePanel
+            Grid.Row="0"
+            Margin="12"
+            HorizontalAlignment="Stretch">
+            <TextBox
+                x:Name="SearhTextBox"
+                RelativePanel.AlignLeftWithPanel="True"
+                RelativePanel.LeftOf="SearchButton"
+                Text="{x:Bind SearchText, Mode=TwoWay}" />
+            <Button
+                x:Name="SearchButton"
+                Margin="12,0,0,0"
+                Click="SearchButton_Click"
+                RelativePanel.AlignRightWithPanel="True">
+                <FontIcon Glyph="&#xE721;" />
+            </Button>
+        </RelativePanel>
+        <ItemsView
+            x:Name="NotesItemView"
+            Grid.Row="1"
+            Margin="12"
+            ItemsSource="{x:Bind Notes, Mode=OneWay}">
+            <ItemsView.ItemTemplate>
+                <DataTemplate x:DataType="entity:Notes">
+                    <ItemContainer>
+                        <controls:NotesCard Notes="{x:Bind Mode=OneWay}" />
+                    </ItemContainer>
+                </DataTemplate>
+            </ItemsView.ItemTemplate>
+            <ItemsView.Layout>
+                <UniformGridLayout
+                    MaximumRowsOrColumns="4"
+                    MinColumnSpacing="12"
+                    MinItemWidth="0"
+                    MinRowSpacing="12"
+                    Orientation="Horizontal" />
+            </ItemsView.Layout>
+        </ItemsView>
+    </Grid>
+</Page>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style x:Key="ThemedButtonStyle" TargetType="Button">
+        <Setter Property="Background" Value="{ThemeResource ButtonBackgroundBrush}" />
+        <Setter Property="Foreground" Value="{ThemeResource ButtonForegroundBrush}" />
+        <Setter Property="Padding" Value="12,6" />
+        <Setter Property="FontSize" Value="16" />
+        <Setter Property="CornerRadius" Value="6" />
+        <Setter Property="BorderThickness" Value="0" />
+    </Style>
+</ResourceDictionary>
